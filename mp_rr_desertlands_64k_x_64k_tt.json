@@ -1,0 +1,107 @@
+{
+  "$mapversion": 1,
+  "version": 8,
+
+  "assetsDir": ".\\map_assets\\",
+  "outputDir": ".\\build\\",
+  "name": "mp_rr_desertlands_64k_x_64k_tt",
+
+  "files": [
+	{
+      "$type": "txtr",
+      "path": "texture/ui_atlas/overviews/mp_rr_desertlands_64k_x_64k_tt"
+	},
+    {
+      "$type": "txtr",
+      "path": "texture/models/signs/desertlands_mirage_sign_03_col"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/models/signs/desertlands_mirage_sign_02_col"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/models/signs/desertlands_mirage_sign_04_col"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/sleek_city/olympus_painting_01_gls"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/sleek_city/olympus_painting_01_nml"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/defaults/default_gls"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/defaults/default_nml"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/defaults/default_spc"
+    },
+    {
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_03",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+	  "posX": 0,
+	  "posY": 0,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_03_col",
+        "texture/world/sleek_city/olympus_painting_01_gls",
+        "texture/world/sleek_city/olympus_painting_01_nml"
+      ]
+    },
+	{
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_04",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+	  "posX": 0,
+	  "posY": 0,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_04_col",
+        "texture/defaults/default_gls",
+        "texture/defaults/default_nml",
+		"texture/defaults/default_spc"
+      ]
+    },
+	{
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_02",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+	  "posX": 0,
+	  "posY": 0,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_02_col",
+        "texture/world/sleek_city/olympus_painting_01_gls",
+        "texture/world/sleek_city/olympus_painting_01_nml"
+      ]
+    },
+	{
+      "$type": "uimg",
+      "path": "ui_image_atlas/overviews/mp_rr_desertlands_64k_x_64k_tt",
+      "atlas": "texture/ui_atlas/overviews/mp_rr_desertlands_64k_x_64k_tt",
+      "textures": [
+        {
+          "path": "overviews/mp_rr_desertlands_64k_x_64k_tt",
+          "width": 4096,
+          "height": 4096,
+		  "posX": 0,
+		  "posY": 0
+        } 
+      ]
+    }
+  ]
+}

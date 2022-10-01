@@ -1,0 +1,33 @@
+{
+  "$mapversion": 1,
+  "version": 8,
+
+  "assetsDir": ".\\map_assets\\",
+  "outputDir": ".\\build\\",
+  "name": "mp_rr_arena_skygarden",
+
+  "files": [
+	{
+      "$type": "txtr",
+      "path": "texture/ui_atlas/overviews/mp_rr_arena_skygarden"
+	},
+    {
+      "$type": "txtr",
+      "path": "texture/models/vistas/canyonlands/canyonlands_dropsky_col"
+    },
+	{
+      "$type": "uimg",
+      "path": "ui_image_atlas/overviews/mp_rr_arena_skygarden",
+      "atlas": "texture/ui_atlas/overviews/mp_rr_arena_skygarden",
+      "textures": [
+        {
+          "path": "overviews/mp_rr_arena_skygarden",
+          "width": 4256,
+          "height": 4256,
+		  "posX": 0,
+		  "posY": 0
+        } 
+      ]
+    }
+  ]
+}
