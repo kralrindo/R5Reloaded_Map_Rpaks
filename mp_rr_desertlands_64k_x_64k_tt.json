@@ -13,22 +13,6 @@
 	},
 	{
       "$type": "txtr",
-      "path": "texture/world/sleek_city/sleek_city_trims_clean_01_col"
-	},
-	{
-      "$type": "txtr",
-      "path": "texture/world/sleek_city/sleek_city_trims_clean_01_spc"
-	},
-	{
-      "$type": "txtr",
-      "path": "texture/world/sleek_city/sleek_city_trims_clean_01_nml"
-	},
-	{
-      "$type": "txtr",
-      "path": "texture/world/sleek_city/sleek_city_trims_clean_01_gls"
-	},
-	{
-      "$type": "txtr",
       "path": "texture/world/plastic/plastic_floor_black_01_col"
 	},
 	{
