@@ -185,14 +185,6 @@
     },
     {
       "$type": "txtr",
-      "path": "texture/world/utility/light_strip_01_ao"
-    },
-    {
-      "$type": "txtr",
-      "path": "texture/world/utility/light_strip_01_nml"
-    },
-    {
-      "$type": "txtr",
       "path": "texture/world/floors/apartment_rug_01_nml"
     },
     {
@@ -289,10 +281,6 @@
     },
     {
       "$type": "txtr",
-      "path": "texture/tools/toolsskybox"
-    },
-    {
-      "$type": "txtr",
       "path": "texture/world/walls/lobby_basic_wall_01_col"
     },
     {
@@ -314,6 +302,14 @@
     {
       "$type": "txtr",
       "path": "texture/defaults/default_spc"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/kral/default_nml"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/kral/default_gls"
     },
     {
       "$type": "matl",
@@ -436,8 +432,8 @@
 	  "posY": 0,
       "textures": [
         "texture/models/signs/desertlands_mirage_sign_01_col",
-		"texture/defaults/default_nml",
-        "",
+		"texture/world/kral/default_nml",
+        "texture/world/kral/default_gls",
         "",
 		"",
 		"",
@@ -502,6 +498,22 @@
 	{
       "$type": "matl",
       "path": "world/walls/marble_wall_rough_01",
+      "type": "rgdp",
+      "surface": "default",
+      "width": 2048,
+      "height": 2048,
+	  "posX": 0,
+	  "posY": 0,
+      "textures": [
+        "texture/world/walls/olympus_valencia_marble_01_col",
+		"texture/world/walls/olympus_valencia_marble_01_nml",
+        "texture/world/walls/olympus_valencia_marble_rough_01_gls",
+        "texture/world/walls/olympus_valencia_marble_01_spc"
+      ]
+    },
+	{
+      "$type": "matl",
+      "path": "world/walls/marble_wall_rough_01",
       "type": "wldc",
       "surface": "concrete",
       "width": 2048,
@@ -527,7 +539,7 @@
       "textures": [
         "texture/world/glass/glass_scratched_01/glass_scratched_02_col",
 		"texture/world/glass/glass_scratched_01/glass_scratched_01_nml",
-        "texture/world/sleek_city/olympus_painting_01_gls",
+        "texture/world/kral/default_gls",
 		"",
 		"",
 		"",
@@ -539,7 +551,7 @@
 		"",
 		"",
 		"",
-        "texture/world/sleek_city/olympus_painting_01_nml"
+        "texture/world/kral/default_nml"
       ]
     },
 	{
@@ -584,7 +596,7 @@
 	  "posY": 0,
       "textures": [
         "texture/world/walls/lobby_basic_wall_01_col",
-		"texture/world/sleek_city/olympus_painting_01_nml",
+		"texture/world/kral/default_nml",
 		"",
 		"",
         "texture/world/walls/lobby_basic_wall_03_stars_ilm",
@@ -706,23 +718,17 @@
       "path": "world/utility/light_strip_01_vc",
       "type": "wldc",
 	  "surface": "concrete",
-      "width": 128,
-      "height": 128,
+	  "shaderset": 5455669381027863835,
+      "width": 256,
+      "height": 32,
 	  "posX": 0,
 	  "posY": 0,
       "textures": [
         "texture/world/utility/light_strip_01_col",
-		"texture/world/utility/light_strip_01_nml",
-		"",
-		"",
-        "texture/world/utility/light_strip_01_ilm",
 		"",
 		"",
 		"",
-		"",
-		"",
-		"",
-		"texture/world/utility/light_strip_01_ao"
+        "texture/world/utility/light_strip_01_ilm"
       ]
     },
 	{
