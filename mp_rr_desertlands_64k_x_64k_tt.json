@@ -265,6 +265,14 @@
     },
     {
       "$type": "txtr",
+      "path": "texture/world/glass/glass_scratched_01/glass_scratched_01_gls"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/glass/glass_scratched_01/glass_scratched_01_spc"
+    },
+    {
+      "$type": "txtr",
       "path": "texture/world/walls/lobby_basic_wall_01_col"
     },
     {
@@ -274,6 +282,26 @@
     {
       "$type": "txtr",
       "path": "texture/world/walls/lobby_basic_wall_03_stars_opa"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/beacon/stamped_metal_large_painted_02_spc"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/beacon/stamped_metal_large_painted_02_ao"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/beacon/stamped_metal_large_painted_02_gls"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/beacon/stamped_metal_large_painted_03_col"
+    },
+    {
+      "$type": "txtr",
+      "path": "texture/world/beacon/stamped_metal_large_painted_02_nml"
     },
     {
       "$type": "txtr",
@@ -307,7 +335,24 @@
       "textures": [
         "texture/models/signs/desertlands_mirage_sign_03_col",
         "texture/world/sleek_city/olympus_painting_01_nml",
-		"texture/world/sleek_city/olympus_painting_01_gls"
+		"texture/world/sleek_city/olympus_painting_01_gls",
+		"texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_03",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 1024,
+	  "posX": 0,
+	  "posY": 0,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_03_col",
+        "texture/world/sleek_city/olympus_painting_01_nml",
+		"texture/world/sleek_city/olympus_painting_01_gls",
+		"texture/defaults/default_spc"
       ]
     },
 	{
@@ -352,13 +397,12 @@
 		"",
 		"",
 		"",
+		"texture/world/metal/metal_painted_red_02_dirty_bm",
 		"",
 		"",
 		"",
 		"",
 		"",
-		"",
-        "texture/world/metal/metal_painted_red_02_dirty_bm",
         "texture/world/metal/metal_painted_red_02_dirty_col",
 		"texture/world/metal/metal_painted_red_02_dirty_nml",
 		"texture/world/metal/metal_painted_red_02_dirty_gls",
@@ -391,13 +435,12 @@
 		"",
 		"",
 		"",
+		"texture/world/ola/concrete_01_bm",
 		"",
 		"",
 		"",
 		"",
 		"",
-		"",
-        "texture/world/ola/concrete_01_bm",
         "texture/world/water/water_puddle_ground_01_col",
 		"texture/world/water/water_puddle_ground_02_nml",
 		"texture/world/water/water_puddle_ground_01_gls",
@@ -418,17 +461,11 @@
         "texture/models/signs/desertlands_mirage_sign_01_col",
 		"texture/world/kral/default_nml",
         "texture/world/kral/default_gls",
-        "",
+        "texture/world/metal/metal_painted_red_02_spc",
 		"",
 		"",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-        "texture/models/signs/desertlands_mirage_sign_01_opa"
+		"texture/models/signs/desertlands_mirage_sign_01_opa"
       ]
     },
 	{
@@ -446,13 +483,7 @@
         "texture/world/sleek_city/sleek_city_wood_floor_01_gls",
         "texture/world/sleek_city/sleek_city_wood_floor_01_spc",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-        "texture/world/sleek_city/sleek_city_wood_floor_01_ao"
+		"texture/world/sleek_city/sleek_city_wood_floor_01_ao"
       ]
     },
 	{
@@ -469,12 +500,6 @@
 		"texture/world/sleek_city/sleek_city_wood_trims_01_nml",
         "texture/world/sleek_city/sleek_city_wood_trims_01_gls",
         "texture/world/sleek_city/sleek_city_wood_trims_01_spc",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
 		"",
         "texture/world/sleek_city/sleek_city_wood_trims_01_ao"
       ]
@@ -523,19 +548,8 @@
       "textures": [
         "texture/world/glass/glass_scratched_01/glass_scratched_02_col",
 		"texture/world/glass/glass_scratched_01/glass_scratched_01_nml",
-        "texture/world/kral/default_gls",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-        "texture/world/kral/default_nml"
+        "texture/world/glass/glass_scratched_01/glass_scratched_01_gls",
+		"texture/world/glass/glass_scratched_01/glass_scratched_01_spc"
       ]
     },
 	{
@@ -550,7 +564,8 @@
       "textures": [
         "texture/models/signs/desertlands_mirage_sign_02_col",
         "texture/world/sleek_city/olympus_painting_01_nml",
-        "texture/world/sleek_city/olympus_painting_01_gls"
+        "texture/world/sleek_city/olympus_painting_01_gls",
+		"texture/defaults/default_spc"
       ]
     },
 	{
@@ -573,6 +588,7 @@
       "path": "world/walls/lobby_basic_wall_03_stars",
       "type": "wldc",
       "surface": "default",
+	  "shaderset": 5408606878269739158,
 	  "visibilityflags": "opaque",
       "width": 2048,
       "height": 2048,
@@ -580,19 +596,13 @@
 	  "posY": 0,
       "textures": [
         "texture/world/walls/lobby_basic_wall_01_col",
-		"texture/world/kral/default_nml",
+		"",
 		"",
 		"",
         "texture/world/walls/lobby_basic_wall_03_stars_ilm",
 		"",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-        "texture/world/walls/lobby_basic_wall_03_stars_opa"
+		"texture/world/walls/lobby_basic_wall_03_stars_opa"
       ]
     },
 	{
@@ -612,14 +622,26 @@
 		"texture/world/water/water_foamy_fountain_01_spc",
         "",
 		"",
+		"texture/world/water/water_foamy_fountain_01_opa"
+      ]
+    },
+	{
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03_vert_color",
+      "type": "wldc",
+      "surface": "concrete",
+	  "shaderset": 3134464214606249681,
+      "width": 2048,
+      "height": 2048,
+	  "posX": 0,
+	  "posY": 0,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03_col",
+		"texture/world/beacon/stamped_metal_large_painted_02_nml",
+		"texture/world/beacon/stamped_metal_large_painted_02_gls",
+		"texture/world/beacon/stamped_metal_large_painted_02_spc",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-        "texture/world/water/water_foamy_fountain_01_opa"
+		"texture/world/beacon/stamped_metal_large_painted_02_ao"
       ]
     },
 	{
@@ -639,25 +661,10 @@
 		"",
 		"",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
+		"texture/world/water/waterfall_stream_red_01_nml",
 		"",
 		"texture/world/water/relic_ship_runoff_nml",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"texture/world/water/waterfall_stream_red_01_nml"
-		
+		"texture/world/water/waterpool_03_nml"
       ]
     },
 	{
@@ -678,23 +685,9 @@
 		"",
 		"",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
 		"texture/world/detail/vertical_warble_01_col",
 		"texture/world/detail/vertical_warble_01_nml"
+
       ]
     },
 	{
