@@ -3,26 +3,15 @@ slot2 _nml
 slot3 _gls/_exp
 slot4 _spc
 slot5 _ilm
-slot6 never used
-slot7 never used
-slot8 never used
-slot9 never used
-slot10 never used
-slot11 never used
-slot12 _ao
-slot13 _cav/cvt
-slot14 _opa
-slot15 detail/camo
-slot16 _dm_nml/_nml detail normal map
-slot17 _msk detail texture mask
-slot18 special use case
-slot19 special use case
-slot20 special use case
-slot21 never used
-slot22 never used
+slot6 _ao
+slot7 _cav/cvt
+slot8 _opa
+slot9 detail/camo
+slot10 _dm_nml/_nml detail normal map
+slot11 _msk detail texture mask
 the following are used on blend materials, for maps only. it is a second texture to blend into the main one.
-slot23 _bm blendmap
-slot24 _col
-slot25 _nml 
-slot26 _gls/_exp
-slot27 _spc
+slot17 _bm blendmap
+slot23 _col
+slot24 _nml 
+slot25 _gls/_exp
+slot26 _spc
