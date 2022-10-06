@@ -339,22 +339,6 @@
 		"texture/defaults/default_spc"
       ]
     },
-    {
-      "$type": "matl",
-      "path": "models/signs/desertlands_mirage_sign_03",
-      "type": "wldc",
-      "surface": "concrete",
-      "width": 2048,
-      "height": 1024,
-	  "posX": 0,
-	  "posY": 0,
-      "textures": [
-        "texture/models/signs/desertlands_mirage_sign_03_col",
-        "texture/world/sleek_city/olympus_painting_01_nml",
-		"texture/world/sleek_city/olympus_painting_01_gls",
-		"texture/defaults/default_spc"
-      ]
-    },
 	{
       "$type": "matl",
       "path": "models/signs/desertlands_mirage_sign_04",
