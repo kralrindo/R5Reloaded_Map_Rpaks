@@ -13,12 +13,25 @@ slot8 _opa
 slot9 detail/camo
 slot10 _dm_nml/_nml detail normal map
 slot11 _msk detail texture mask
+slot12 _nml ??
+slot13 _nml ??
+slot14 _vxd/_thk
+slot15 _vxd
+slot16 _asd anisoSpecDir
 the following are used on blend materials, for maps only. it is a second texture to blend into the main one.
 slot17 _bm blendmap
+
 slot23 _col
 slot24 _nml 
 slot25 _gls/_exp
 slot26 _spc
+slot27 _nml ??
+slot28 _ao ??
+slot29 _ao ??
+
+slot31 _opa ??
+slot32 _col ??
+slot33 _nml ??
 
 
 //=========================================================
