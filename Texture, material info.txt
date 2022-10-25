@@ -17,7 +17,7 @@ slot12 _nml ??
 slot13 _nml ??
 slot14 _vxd/_thk
 slot15 _vxd
-slot16 _asd anisoSpecDir
+slot16 _asd/_asa anisoSpecDir
 the following are used on blend materials, for maps only. it is a second texture to blend into the main one.
 slot17 _bm blendmap
 
@@ -53,14 +53,16 @@ faceflags:
 //					Texture Formats 					 //
 //=========================================================
 
-_col: BC7 sRGB
+_col: BC1 sRGB
 _nml: BC5U
 _gls: BC4U
-_spc: BC7 sRGB
-_ilm: BC7 sRGB
+_spc: BC1 sRGB
+_ilm: BC1 sRGB
 _ao:  BC4U
 _cav: BC4U
 _opa: BC4U
+_asd: BC5U
+_thk: BC7 sRGB
 
 UI Assets: BC7 SRGB
 Loadscreens: BC1 sRGB (Low Quality), BC7 sRGB
