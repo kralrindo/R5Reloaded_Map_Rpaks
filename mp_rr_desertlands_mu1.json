@@ -2,6 +2,8 @@
   "$mapversion": 1,
   "version": 8,
 
+  "starpakPath": "paks/Win64/mp_rr_desertlands_mu1.starpak",
+
   "assetsDir": ".\\map_assets\\",
   "outputDir": ".\\build\\",
   "name": "mp_rr_desertlands_mu1",
@@ -103,7 +105,568 @@
         "texture/defaults/default_nml",
         "texture/defaults/default_spc",
         "texture/world/kral/default_nml",
-        "texture/world/kral/default_gls"
+        "texture/world/kral/default_gls",
+
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_col",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_spc",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_ao",
+
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_col",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_spc",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_ao",
+
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_col",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_nml",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_gls",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_spc",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_ao",
+
+        "texture/world/dev/dev_orange_512_col",
+        "texture/world/dev/dev_red_512_col",
+
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_ao",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_bm",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc2",
+
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedoTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normalTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_glossTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_specTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_aoTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_layerBlendTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedo2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normal2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_gloss2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_spec2Texture",
+
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_albedoTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_normalTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_glossTexture",
+
+        "texture/models/vistas/desertlands/desertlands_sky_col",
+
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_col",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_nml",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_gls",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_spc",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_msk",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_1_nml",
+
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_albedoTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_normalTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_glossTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_specTexture",
+
+        "texture/test/blinn_maya_test/blinn_maya_test_albedoTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_normalTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_glossTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_specTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_aoTexture",
+
+        "texture/world/floors/imc_portable_interior_floor_01_var_albedoTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_normalTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_glossTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_specTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_aoTexture",
+
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_col",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_nml",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_gls",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_spc",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_ao",
+
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_albedoTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_normalTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_glossTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_specTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_aoTexture",
+
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_col",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_nml",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_gls",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_spc",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_ao",
+
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_albedoTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_normalTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_glossTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_specTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_aoTexture",
+
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_albedoTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_normalTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_glossTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_specTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_aoTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_layerBlendTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_albedo2Texture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_normal2Texture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_gloss2Texture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_spec2Texture",
+
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_albedoTexture",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_normalTexture",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_glossTexture",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_specTexture",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_aoTexture",
+
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_albedoTexture",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_normalTexture",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_glossTexture",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_specTexture",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_aoTexture",
+
+        "texture/world/concrete/desertlands/road_concrete_trim_01_col",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_nml",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_gls",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_spc",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_ao",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_bm",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_col",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_nml",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_gls",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_spc",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/sand_mud_beach_01_dm_nml",
+
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_albedoTexture",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_normalTexture",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_glossTexture",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_specTexture",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_aoTexture",
+
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_albedoTexture",
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_normalTexture",
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_glossTexture",
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_specTexture",
+
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_albedoTexture",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_normalTexture",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_glossTexture",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_specTexture",
+
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_albedoTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_normalTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_glossTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_specTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_aoTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_cavityTexture",
+
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_albedoTexture",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_normalTexture",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_glossTexture",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_specTexture",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_aoTexture",
+        "texture/world/moss/icelandic_moss_01_spc",
+
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_albedoTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_normalTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_glossTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_detailTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_detailNormalTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_layerBlendTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/imc_interior/imc_int_glass",
+      "type": "wldc",
+      "surface": "glass",
+      "visibilityflags": "transparent",
+      "shaderset": 8777518503248558178,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_albedoTexture",
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_normalTexture",
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_glossTexture",
+        "texture/models/imc_interior/imc_int_glass/imc_int_glass_specTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_sidewalk01_cracks03",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_albedoTexture",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_normalTexture",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_glossTexture",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/concrete_sidewalk01_cracks03_specTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/stone/desertlands_sulfur_03",
+      "type": "wldc",
+      "surface": "default",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_albedoTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_normalTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_glossTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_specTexture",
+        "",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_aoTexture",
+        "texture/world/stone/desertlands_sulfur_03/desertlands_sulfur_03_cavityTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/lava_land/volcanic_dry_flow_02",
+      "type": "wldc",
+      "surface": "lava_flow",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_albedoTexture",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_normalTexture",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_glossTexture",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_specTexture",
+        "",
+        "texture/world/lava_land/volcanic_dry_flow_02/volcanic_dry_flow_02_aoTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/moss/icelandic_moss_01_wld",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/moss/icelandic_moss_01_col",
+        "texture/world/moss/icelandic_moss_01_nml",
+        "texture/world/moss/icelandic_moss_01_gls",
+        "texture/world/moss/icelandic_moss_01_spc",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_01_cav",
+        "",
+        "texture/world/moss/moss_desertland_02_col",
+        "texture/world/moss/moss_desertland_02_nml"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/moss/icelandic_moss_01_col",
+        "texture/world/moss/icelandic_moss_01_nml",
+        "texture/world/moss/icelandic_moss_01_gls",
+        "texture/world/moss/icelandic_moss_01_spc",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_01_cav",
+        "",
+        "texture/world/moss/moss_desertland_02_col",
+        "texture/world/moss/moss_desertland_02_nml",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_01_bm",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_col",
+        "texture/world/moss/icelandic_moss_01_nml",
+        "texture/world/moss/icelandic_moss_01_gls",
+        "texture/world/moss/icelandic_moss_01_spc",
+        "",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_01_cav",
+        "",
+        "texture/world/moss/moss_desertland_02_col",
+        "texture/world/moss/moss_desertland_02_nml"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/rubble/rubble_standard02_wld_b2t_wld_01",
+      "type": "wldc",
+      "surface": "default",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_albedoTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_normalTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_glossTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_detailTexture",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_detailNormalTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01_layerBlendTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/mendoko/interior/floor_panel_mendoko_03/floor_panel_mendoko_03",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 10712797481634029404,
+      "width": 512,
+      "height": 1024,
+      "textures": [
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_col",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_nml",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_gls",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_spc",
+        "",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 3134464214606249681,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_albedoTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_normalTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_glossTexture",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_specTexture",
+        "",
+        "texture/world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc_aoTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/painted_metal_tank_welded_01_vert_color",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 3134464214606249681,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_albedoTexture",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_normalTexture",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_glossTexture",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_specTexture",
+        "",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/painted_metal_tank_welded_01_vert_color_aoTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_albedoTexture",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_normalTexture",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_glossTexture",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_specTexture",
+        "",
+        "texture/models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01_aoTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/padded_panel_construction_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 3134464214606249681,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_albedoTexture",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_normalTexture",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_glossTexture",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_specTexture",
+        "",
+        "texture/world/beacon/padded_panel_construction_01_vc/padded_panel_construction_01_vc_aoTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/stamped_metal_large_painted_03_vc_dirty_bm",
+      "type": "wldc",
+      "surface": "metal",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_albedoTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_normalTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_glossTexture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_specTexture",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_aoTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_layerBlendTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_albedo2Texture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_normal2Texture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_gloss2Texture",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/stamped_metal_large_painted_03_vc_dirty_bm_spec2Texture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/concrete/desertlands/road_concrete_trim_01_col",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_nml",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_gls",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_spc",
+        "",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_ao",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_bm",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_col",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_nml",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_gls",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_spc",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/sand_mud_beach_01_dm_nml"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/stasis/stasis_trim_01/stasis_trim_damaged_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 7737891366062153522,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_col",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_nml",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_gls",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_spc",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/door/desertlands_door_frame_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_albedoTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_normalTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_glossTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_specTexture",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/floors/imc_portable_interior_floor_01_var",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 10712797481634029404,
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/world/floors/imc_portable_interior_floor_01_var_albedoTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_normalTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_glossTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_specTexture",
+        "",
+        "texture/world/floors/imc_portable_interior_floor_01_var_aoTexture",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "test/blinn_maya_test",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 32,
+      "height": 32,
+      "textures": [
+        "texture/test/blinn_maya_test/blinn_maya_test_albedoTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_normalTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_glossTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_specTexture",
+        "",
+        "texture/test/blinn_maya_test/blinn_maya_test_aoTexture"
       ]
     },
     {
@@ -132,6 +695,20 @@
         "texture/defaults/default_nml",
         "texture/defaults/default_gls",
         "texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/research_station/research_station_painted_metal_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 1829402249347248230,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_albedoTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_normalTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_glossTexture"
       ]
     },
     {
@@ -208,6 +785,78 @@
     },
     {
       "$type": "matl",
+      "path": "world/metal/s2s_wall_trim_01_vc_dirty_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc",
+        "",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_ao",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_bm",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc2"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/s2s_metal_trims_02_vc_dirty_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedoTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normalTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_glossTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_specTexture",
+        "",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_aoTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_layerBlendTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedo2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normal2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_gloss2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_spec2Texture"
+      ]
+    },
+    {
+      "$type": "matl",
       "path": "models/signs/desertlands_mirage_sign_01",
       "type": "wldc",
       "surface": "default",
@@ -223,6 +872,34 @@
         "",
         "",
         "texture/models/signs/desertlands_mirage_sign_01_opa"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dev/dev_orange_512",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/dev/dev_orange_512_col",
+        "texture/defaults/default_gls",
+        "texture/defaults/default_nml",
+        "texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dev/dev_red_512",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/dev/dev_red_512_col",
+        "texture/defaults/default_gls",
+        "texture/defaults/default_nml",
+        "texture/defaults/default_spc"
       ]
     },
     {
@@ -283,6 +960,54 @@
         "texture/world/walls/olympus_valencia_marble_01_nml",
         "texture/world/walls/olympus_valencia_marble_rough_01_gls",
         "texture/world/walls/olympus_valencia_marble_01_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_wall_trim_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_col",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_spc",
+        "",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_wall_trim_02_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_col",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_spc",
+        "",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_roof_panel_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_col",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_nml",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_gls",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_spc",
+        "",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_ao"
       ]
     },
     {
@@ -404,6 +1129,22 @@
     },
     {
       "$type": "matl",
+      "path": "world/utility/light_strip_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 5455669381027863835,
+      "width": 256,
+      "height": 32,
+      "textures": [
+        "texture/world/utility/light_strip_01_col",
+        "",
+        "",
+        "",
+        "texture/world/utility/light_strip_01_ilm"
+      ]
+    },
+    {
+      "$type": "matl",
       "path": "world/water/waterfall_fountain_modern_01",
       "type": "wldc",
       "surface": "water",
@@ -423,38 +1164,11 @@
       ]
     },
     {
-      "$type": "matl",
-      "path": "world/utility/light_strip_01_vc",
-      "type": "wldc",
-      "surface": "concrete",
-      "shaderset": 5455669381027863835,
-      "width": 256,
-      "height": 32,
-      "textures": [
-        "texture/world/utility/light_strip_01_col",
-        "",
-        "",
-        "",
-        "texture/world/utility/light_strip_01_ilm"
-      ]
-    },
-    {
-      "$type": "txtr",
-      "path": "texture/ui_atlas/overviews/mp_rr_desertlands_mu1"
-    },
-    {
-      "$type": "uimg",
-      "path": "ui_image_atlas/overviews/mp_rr_desertlands_mu1",
-      "atlas": "texture/ui_atlas/overviews/mp_rr_desertlands_mu1",
-      "textures": [
-        {
-          "path": "overviews/mp_rr_desertlands_mu1",
-          "width": 4100,
-          "height": 4100,
-          "posX": 0,
-          "posY": 0
-        }
-      ]
+      "$type": "rmdl",
+      "path": "mdl/vistas/desertlands_mu1_se.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
     }
   ]
 }
