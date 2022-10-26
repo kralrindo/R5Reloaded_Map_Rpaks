@@ -28,7 +28,7 @@ slot26 _spc
 slot27 _nml ??
 slot28 _ao ??
 slot29 _ao ??
-
+slot30 _cav
 slot31 _opa ??
 slot32 _col ??
 slot33 _nml ??
