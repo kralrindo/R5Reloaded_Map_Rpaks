@@ -367,20 +367,6 @@
       ]
     },
     {
-      "$type": "uimg",
-      "path": "ui_image_atlas/overviews/mp_rr_desertlands_mu1",
-      "atlas": "texture/ui_atlas/overviews/mp_rr_desertlands_mu1",
-      "textures": [
-        {
-          "path": "overviews/mp_rr_desertlands_mu1",
-          "width": 4096,
-          "height": 4096,
-          "posX": 0,
-          "posY": 0
-        }
-      ]
-    },
-    {
       "$type": "matl",
       "path": "particle/glows/flare_streak01_add",
       "type": "ptcu",
@@ -3139,6 +3125,30 @@
       "materials": [
         "models/weapons_r5/loot/ultimate_accelerant/w_loot_wep_iso_ultimate_accelerant_01_rgdp",
         "models/weapons_r5/loot/ultimate_accelerant/w_loot_wep_iso_ultimate_accelerant_01_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/fx/harvester_beam_mu1.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc"
+      ]
+    },
+    {
+      "$type": "uimg",
+      "path": "ui_image_atlas/overviews/mp_rr_desertlands_mu1",
+      "atlas": "texture/ui_atlas/overviews/mp_rr_desertlands_mu1",
+      "textures": [
+        {
+          "path": "overviews/mp_rr_desertlands_mu1",
+          "width": 4096,
+          "height": 4096,
+          "posX": 0,
+          "posY": 0
+        }
       ]
     }
   ]

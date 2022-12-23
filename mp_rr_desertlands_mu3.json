@@ -1,0 +1,3145 @@
+{
+  "$mapversion": 1,
+  "version": 8,
+
+  "starpakPath": "paks/Win64/mp_rr_desertlands_mu3.starpak",
+
+  "assetsDir": ".\\map_assets\\",
+  "outputDir": "D:/SteamLibrary/steamapps/common/Modified Apex/ModifiedApexS3/paks/Win64",
+  "name": "mp_rr_desertlands_mu3",
+
+  "files": [
+    {
+      "$type": "txtrlist",
+      "textures": [
+        "texture/ui_atlas/overviews/mp_rr_desertlands_mu3",
+
+        "texture/world/plastic/plastic_floor_black_01_bm/0x40f6eb4a1947ddbf",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x1563c8daaee0fdea",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x4b382c783be1558b",
+        "texture/world/plastic/plastic_floor_black_01_bm/0xdf1456811ef7717c",
+        "texture/world/plastic/plastic_floor_black_01_bm/0xce742fa7f2083f77",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x582750f442600aa2",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x367d4ad0b442f50",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x3a1ab151533fe483",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x9dff9284be740de1",
+
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x497cca2d56ba72",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0xf66f241dced3d7ac",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x3889e5d959281843",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x653cc0e47e1202c0",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x401690799bcd0976",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0xcecb60c22ac2c146",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x660fb46a56c35d14",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0xaf8afced48b3883d",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x14a3a2529a6f18a3",
+
+        "texture/models/signs/desertlands_mirage_sign_03_col",
+        "texture/models/signs/desertlands_mirage_sign_02_col",
+        "texture/models/signs/desertlands_mirage_sign_04_col",
+        "texture/models/signs/desertlands_mirage_sign_01_opa",
+        "texture/models/signs/desertlands_mirage_sign_01_col",
+
+        "texture/models/signs/desertlands_mirage_sign_01/0x1798ab4c384419a4",
+        "texture/models/signs/desertlands_mirage_sign_01/0x8c9647619e10e9a6",
+        "texture/models/signs/desertlands_mirage_sign_01/0xa9df10fa91dd2d2d",
+        "texture/models/signs/desertlands_mirage_sign_01/0xa9df10fa91dd2d2d",
+        "texture/models/signs/desertlands_mirage_sign_01/0x309ec0a9d70a372b",
+
+        "texture/world/sleek_city/olympus_painting_01_gls",
+        "texture/world/sleek_city/olympus_painting_01_nml",
+
+        "texture/world/sleek_city/sleek_city_wood_floor_01_col",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_nml",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_spc",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_gls",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_ao",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_white_col",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_nml",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_spc",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_gls",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_ao",
+
+        "texture/world/utility/light_strip_01_col",
+        "texture/world/utility/light_strip_01_ilm",
+
+        "texture/world/floors/apartment_rug_01_nml",
+        "texture/world/floors/apartment_rug_01_gls",
+        "texture/world/floors/carpet_01_red_col",
+
+        "texture/world/water/waterfall_fountain_modern_01_col",
+        "texture/world/water/waterfall_fountain_modern_01_nml",
+        "texture/world/water/waterfall_fountain_modern_01_gls",
+        "texture/world/water/waterfall_fountain_modern_01_spc",
+
+        "texture/world/water/water_foamy_fountain_01_col",
+        "texture/world/water/water_foamy_fountain_01_nml",
+        "texture/world/water/water_foamy_fountain_01_gls",
+        "texture/world/water/water_foamy_fountain_01_spc",
+        "texture/world/water/water_foamy_fountain_01_opa",
+
+        "texture/world/walls/olympus_valencia_marble_01_col",
+        "texture/world/walls/olympus_valencia_marble_01_nml",
+        "texture/world/walls/olympus_valencia_marble_01_spc",
+        "texture/world/walls/olympus_valencia_marble_rough_01_gls",
+
+        "texture/world/water/waterpool_03_col",
+        "texture/world/water/waterpool_03_nml",
+        "texture/world/water/relic_ship_runoff_nml",
+        "texture/world/water/waterfall_stream_red_01_nml",
+        "texture/world/detail/vertical_warble_01_col",
+        "texture/world/detail/vertical_warble_01_nml",
+
+        "texture/world/glass/glass_scratched_01/glass_scratched_02_col",
+        "texture/world/glass/glass_scratched_01/glass_scratched_01_nml",
+        "texture/world/glass/glass_scratched_01/glass_scratched_01_gls",
+        "texture/world/glass/glass_scratched_01/glass_scratched_01_spc",
+
+        "texture/world/walls/lobby_basic_wall_01_col",
+        "texture/world/walls/lobby_basic_wall_03_stars_ilm",
+        "texture/world/walls/lobby_basic_wall_03_stars_opa",
+
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xbd31d3da19fdd274",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x41ac047ae32a29d1",
+
+        "texture/defaults/default_gls",
+        "texture/defaults/default_nml",
+        "texture/defaults/default_spc",
+        "texture/world/kral/default_nml",
+        "texture/world/kral/default_gls",
+
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_col",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_spc",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_ao",
+
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_col",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_spc",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_ao",
+
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_col",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_nml",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_gls",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_spc",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_ao",
+
+        "texture/world/dev/dev_orange_512_col",
+        "texture/world/dev/dev_red_512_col",
+
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_ao",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_bm",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc2",
+
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedoTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normalTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_glossTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_specTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_aoTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_layerBlendTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedo2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normal2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_gloss2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_spec2Texture",
+
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x981308a4ca4e7326",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xc1bff6a6b69b6422",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x289e9c30fe64c6aa",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xfb0dc8b4afc9f022",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xcf7aa6452c93b889",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x54f09e2ad2c6448",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x97f76fb9e18d9eaa",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xcc5527bc1662390f",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x941d01ddfe88e86e",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xa7fac49857f159b6",
+
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_albedoTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_normalTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_glossTexture",
+
+        "texture/models/vistas/desertlands/desertlands_sky_col",
+
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_col",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_nml",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_gls",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_spc",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_msk",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_1_nml",
+
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_albedoTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_normalTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_glossTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_specTexture",
+
+        "texture/test/blinn_maya_test/blinn_maya_test_albedoTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_normalTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_glossTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_specTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_aoTexture",
+
+        "texture/world/floors/imc_portable_interior_floor_01_var_albedoTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_normalTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_glossTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_specTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_aoTexture",
+
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x72c6a0e80217ca39",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x85bd907d0d9ddbf0",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x8ff84c04137d0cee",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x56dfb27fd5c924a9",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0xe14bddb9e17cdd25",
+
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0x102a9de6cb1dd779",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0x8b7f8f81eb23aede",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0xcd9a513d62dc6da2",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0xfa4d2c48a095afe3",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0xa4558310ad5e46ed",
+
+        "texture/models/mendoko/interior/mendoko_pipes_01/0xbf158d00b455ef2",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0x2068fda357f183be",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0x296ff4f8964c7b69",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0xf0575b745ecc6915",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0x7c443becd7110e3d",
+
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0x12a234b4d629466a",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0xe842d677714cfb52",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0x1e173a150ab4fed5",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0xb0bf9fec32ae8d55",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0xe3e993bc5bc4bd0c",
+
+        "texture/world/concrete/desertlands/road_concrete_trim_01_col",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_nml",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_gls",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_spc",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_ao",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_bm",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_col",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_nml",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_gls",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_spc",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/sand_mud_beach_01_dm_nml",
+
+        "texture/world/beacon/padded_panel_construction_01_vc/0x3e672324120dab6a",
+        "texture/world/beacon/padded_panel_construction_01_vc/0xa952f09b90bce9ef",
+        "texture/world/beacon/padded_panel_construction_01_vc/0xb4c170546a880022",
+        "texture/world/beacon/padded_panel_construction_01_vc/0x7ba8d6d06ada7347",
+        "texture/world/beacon/padded_panel_construction_01_vc/0x52e2ee4fd40f29b",
+
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0xac26b3f92dc0c823",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0xa3801f7e84269cdd",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0xe59ae13a2d7e0b29",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0x124dbc4565037779",
+
+        "texture/world/stone/desertlands_sulfur_03/0x7d8b13a5806ebb84",
+        "texture/world/stone/desertlands_sulfur_03/0x91b5c76c727c3443",
+        "texture/world/stone/desertlands_sulfur_03/0x9abcbec191d3fe39",
+        "texture/world/stone/desertlands_sulfur_03/0x61a4253d6087c1d6",
+        "texture/world/stone/desertlands_sulfur_03/0xed4414a9465b3578",
+        "texture/world/stone/desertlands_sulfur_03/0xd988d5bdde6ce63",
+
+        "texture/world/lava_land/volcanic_dry_flow_02/0x1612f74a46fbbc6",
+        "texture/world/lava_land/volcanic_dry_flow_02/0xd74ec243b301747f",
+        "texture/world/lava_land/volcanic_dry_flow_02/0xd2325e1339a203e",
+        "texture/world/lava_land/volcanic_dry_flow_02/0x9ee4b8932cb47ce2",
+        "texture/world/lava_land/volcanic_dry_flow_02/0xd38f61a1a98c4181",
+
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xf3ca5a573a10b160",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xc96afc19b6313893",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xff3f5fb736c9e452",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x91e7c58e6b2b1eb4",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xa27cf387e19a73dc",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x521ef1d63b27fbcb",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x65afc38439f1c106",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xdc0332779ee59e03",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x1e950a52fc51429f",
+
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x981308a4ca4e7326",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0xc1bff6a6b69b6422",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x289e9c30fe64c6aa",
+
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_albedoTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_normalTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_glossTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_aoTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_detailTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_detailNormalTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_layerBlendTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_albedo2Texture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_normal2Texture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_gloss2Texture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_ao2Texture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_IndirectSpecularTextureCubeArray",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_lightmapTexture0",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_lightmapTexture1",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_CSMDepthAtlasTexture",
+
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xa86b168d1faf2041",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x4e643713648bd16f",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x907ef8cf0de33fbb",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xbd31d3da19fdd274",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x41ac047ae32a29d1",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x401690799bcd0976",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xcecb60c22ac2c146",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x660fb46a56c35d14",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xaf8afced48b3883d",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x14a3a2529a6f18a3",
+
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_albedoTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_normalTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_glossTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_specTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_aoTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detailNormalTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_layerBlendTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_albedo2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_normal2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_gloss2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_spec2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_ao2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detail2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detailNormal2Texture",
+
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x981308a4ca4e7326",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0xc1bff6a6b69b6422",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x289e9c30fe64c6aa",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x4f49fe1171e0fb23",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x258481ecd4dd89f8",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x5b58e58a5baa0ba8",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0xd348173eb1ada8b3",
+
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xca8f41eaf3f59104",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x981308a4ca4e7326",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xc1bff6a6b69b6422",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x289e9c30fe64c6aa",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xfb0dc8b4afc9f022",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xcf7aa6452c93b889",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x54f09e2ad2c6448",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x97f76fb9e18d9eaa",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xcc5527bc1662390f",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x941d01ddfe88e86e",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xa7fac49857f159b6",
+
+        "texture/world/decal/decals_cracks_01_albedoTexture",
+        "texture/world/decal/decals_cracks_01_normalTexture",
+        "texture/world/decal/decals_cracks_01_glossTexture",
+
+        "texture/models/vistas/desertlands_mu1/Iceland_SlopeB_mu1_albedoTexture",
+        "texture/models/vistas/desertlands_mu1/Iceland_SlopeD_mu1_albedoTexture",
+
+        "texture/models/imc_interior/imc_int_glass/0x4961b38821f061c7",
+        "texture/models/imc_interior/imc_int_glass/0x984e508dc2f973df",
+        "texture/models/imc_interior/imc_int_glass/0x66e04fb09428267a",
+        "texture/models/imc_interior/imc_int_glass/0x2dc7b62c8812edbd",
+
+        "texture/particle/explosions/firework_interlace_03/0x4740b5e695479d0",
+        "texture/particle/explosions/firework_interlace_03/0xe9134dbd03f6b4f1",
+        "texture/particle/explosions/firework_interlace_03/0x2b2e0f78757b9dc4",
+        "texture/particle/explosions/firework_interlace_03/0x57e0ea83b334e005",
+        "texture/particle/explosions/firework_interlace_03/0x1b6f0cf14086bbea",
+        "texture/particle/explosions/firework_interlace_03/0x30de33528d65fe6f",
+        "texture/particle/explosions/firework_interlace_03/0x2ef418f508d3bf1",
+        "texture/particle/explosions/firework_interlace_03/0x6654343bfdb7dcf5",
+
+        "texture/particle/glows/flare_streak01_add/0x734769aaa0686b82"
+      ]
+    },
+    {
+      "$type": "uimg",
+      "path": "ui_image_atlas/overviews/mp_rr_desertlands_mu3",
+      "atlas": "texture/ui_atlas/overviews/mp_rr_desertlands_mu3",
+      "textures": [
+        {
+          "path": "overviews/mp_rr_desertlands_mu3",
+          "width": 4096,
+          "height": 4096,
+          "posX": 0,
+          "posY": 0
+        }
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "particle/glows/flare_streak01_add",
+      "type": "ptcu",
+      "cpu": "cpu/flare_streak01_add",
+      "flags": 7426,
+      "flags2": 163974,
+      "shaderset": 2685209795113165512,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/particle/glows/flare_streak01_add/0x734769aaa0686b82"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "particle/explosions/firework_interlace_03",
+      "type": "rgdp",
+      "cpu": "cpu/firework_interlace_03",
+      "flags": 1901312,
+      "flags2": 269484166,
+      "shaderset": 17201075323511825710,
+      "width": 128,
+      "height": 128,
+      "textures": [
+        "texture/particle/explosions/firework_interlace_03/0x4740b5e695479d0",
+        "texture/particle/explosions/firework_interlace_03/0xe9134dbd03f6b4f1",
+        "texture/particle/explosions/firework_interlace_03/0x2b2e0f78757b9dc4",
+        "texture/particle/explosions/firework_interlace_03/0x57e0ea83b334e005",
+        "texture/particle/explosions/firework_interlace_03/0x1b6f0cf14086bbea",
+        "texture/particle/explosions/firework_interlace_03/0x30de33528d65fe6f",
+        "texture/particle/explosions/firework_interlace_03/0x2ef418f508d3bf1",
+        "",
+        "",
+        "",
+        "texture/particle/explosions/firework_interlace_03/0x6654343bfdb7dcf5"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/imc_interior/imc_int_glass",
+      "type": "wldc",
+      "surface": "glass",
+      "cpu": "cpu/imc_int_glass",
+      "flags": 1901312,
+      "flags2": 1912602626,
+      "shaderset": 8777518503248558178,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/imc_interior/imc_int_glass/0x4961b38821f061c7",
+        "texture/models/imc_interior/imc_int_glass/0x984e508dc2f973df",
+        "texture/models/imc_interior/imc_int_glass/0x66e04fb09428267a",
+        "texture/models/imc_interior/imc_int_glass/0x2dc7b62c8812edbd"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_sidewalk01_cracks03",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/concrete_sidewalk01_cracks03",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0xac26b3f92dc0c823",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0xa3801f7e84269cdd",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0xe59ae13a2d7e0b29",
+        "texture/world/concrete/concrete_sidewalk01_cracks03/0x124dbc4565037779"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/stone/desertlands_sulfur_03",
+      "type": "wldc",
+      "surface": "default",
+      "cpu": "cpu/desertlands_sulfur_03",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 5408606878269739158,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stone/desertlands_sulfur_03/0x7d8b13a5806ebb84",
+        "texture/world/stone/desertlands_sulfur_03/0x91b5c76c727c3443",
+        "texture/world/stone/desertlands_sulfur_03/0x9abcbec191d3fe39",
+        "texture/world/stone/desertlands_sulfur_03/0x61a4253d6087c1d6",
+        "",
+        "texture/world/stone/desertlands_sulfur_03/0xed4414a9465b3578",
+        "texture/world/stone/desertlands_sulfur_03/0xd988d5bdde6ce63"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/lava_land/volcanic_dry_flow_02",
+      "type": "wldc",
+      "surface": "lava_flow",
+      "cpu": "cpu/volcanic_dry_flow_02",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/lava_land/volcanic_dry_flow_02/0x1612f74a46fbbc6",
+        "texture/world/lava_land/volcanic_dry_flow_02/0xd74ec243b301747f",
+        "texture/world/lava_land/volcanic_dry_flow_02/0xd2325e1339a203e",
+        "texture/world/lava_land/volcanic_dry_flow_02/0x9ee4b8932cb47ce2",
+        "",
+        "texture/world/lava_land/volcanic_dry_flow_02/0xd38f61a1a98c4181"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/moss/icelandic_moss_01_wld",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "cpu": "cpu/icelandic_moss_01_wld",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xf3ca5a573a10b160",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xc96afc19b6313893",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xff3f5fb736c9e452",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x91e7c58e6b2b1eb4",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xa27cf387e19a73dc",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x521ef1d63b27fbcb",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x65afc38439f1c106"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "cpu": "cpu/icelandic_moss_yellow_01_to_moss_green_01_wld_bm",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xf3ca5a573a10b160",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xc96afc19b6313893",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xff3f5fb736c9e452",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x91e7c58e6b2b1eb4",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xa27cf387e19a73dc",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x521ef1d63b27fbcb",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x65afc38439f1c106",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xdc0332779ee59e03",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x1e950a52fc51429f",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xc96afc19b6313893",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xff3f5fb736c9e452",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x91e7c58e6b2b1eb4",
+        "",
+        "",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0xa27cf387e19a73dc",
+        "",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x521ef1d63b27fbcb",
+        "texture/world/moss/icelandic_moss_yellow_01_to_moss_green_01_wld_bm/0x65afc38439f1c106"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/rubble/rubble_standard02_wld_b2t_wld_01",
+      "type": "wldc",
+      "surface": "default",
+      "cpu": "cpu/rubble_standard02_wld_b2t_wld_01",
+      "flags": 1901312,
+      "flags2": 1912602627,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x981308a4ca4e7326",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0xc1bff6a6b69b6422",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_b2t_wld_01/0x289e9c30fe64c6aa"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/mendoko/interior/floor_panel_mendoko_03/floor_panel_mendoko_03",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/floor_panel_mendoko_03",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 10712797481634029404,
+      "width": 512,
+      "height": 1024,
+      "textures": [
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x72c6a0e80217ca39",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x85bd907d0d9ddbf0",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x8ff84c04137d0cee",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0x56dfb27fd5c924a9",
+        "",
+        "texture/models/mendoko/interior/floor_panel_mendoko_03/0xe14bddb9e17cdd25"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/mendoko_interior_trim_01_vc",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 3134464214606249681,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0x102a9de6cb1dd779",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0x8b7f8f81eb23aede",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0xcd9a513d62dc6da2",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0xfa4d2c48a095afe3",
+        "",
+        "texture/world/mendoko/mendoko_interior_trim_01_vc/0xa4558310ad5e46ed"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/painted_metal_tank_welded_01_vert_color",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/painted_metal_tank_welded_01_vert_color",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 3134464214606249681,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0x12a234b4d629466a",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0xe842d677714cfb52",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0x1e173a150ab4fed5",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0xb0bf9fec32ae8d55",
+        "",
+        "texture/world/metal/painted_metal_tank_welded_01_vert_color/0xe3e993bc5bc4bd0c"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/mendoko/interior/mendoko_pipes_01/mendoko_pipes_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/mendoko_pipes_01",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/mendoko/interior/mendoko_pipes_01/0xbf158d00b455ef2",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0x2068fda357f183be",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0x296ff4f8964c7b69",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0xf0575b745ecc6915",
+        "",
+        "texture/models/mendoko/interior/mendoko_pipes_01/0x7c443becd7110e3d"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/padded_panel_construction_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/padded_panel_construction_01_vc",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 3134464214606249681,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/beacon/padded_panel_construction_01_vc/0x3e672324120dab6a",
+        "texture/world/beacon/padded_panel_construction_01_vc/0xa952f09b90bce9ef",
+        "texture/world/beacon/padded_panel_construction_01_vc/0xb4c170546a880022",
+        "texture/world/beacon/padded_panel_construction_01_vc/0x7ba8d6d06ada7347",
+        "",
+        "texture/world/beacon/padded_panel_construction_01_vc/0x52e2ee4fd40f29b"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/stamped_metal_large_painted_03_vc_dirty_bm",
+      "type": "wldc",
+      "surface": "metal",
+      "cpu": "cpu/stamped_metal_large_painted_03_vc_dirty_bm",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xa86b168d1faf2041",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x4e643713648bd16f",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x907ef8cf0de33fbb",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xbd31d3da19fdd274",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x41ac047ae32a29d1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x401690799bcd0976",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xcecb60c22ac2c146",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x660fb46a56c35d14",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0xaf8afced48b3883d",
+        "texture/world/metal/stamped_metal_large_painted_03_vc_dirty_bm/0x14a3a2529a6f18a3"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/concrete/desertlands/road_concrete_trim_01_col",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_nml",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_gls",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_spc",
+        "",
+        "texture/world/concrete/desertlands/road_concrete_trim_01_ao",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_bm",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_col",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_nml",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_gls",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/concrete_slab_cracked01_puddle_spc",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_trim_slums_01_to_cracked_concrete_slab_01_bm/sand_mud_beach_01_dm_nml"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/stasis/stasis_trim_01/stasis_trim_damaged_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 7737891366062153522,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_col",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_nml",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_gls",
+        "texture/world/stasis/stasis_trim_01/stasis_trim_damaged_01/stasis_trim_damaged_01_spc",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/door/desertlands_door_frame_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_albedoTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_normalTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_glossTexture",
+        "texture/models/door/desertlands_door_frame_01/desertlands_door_frame_01_specTexture",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/floors/imc_portable_interior_floor_01_var",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 10712797481634029404,
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/world/floors/imc_portable_interior_floor_01_var_albedoTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_normalTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_glossTexture",
+        "texture/world/floors/imc_portable_interior_floor_01_var_specTexture",
+        "",
+        "texture/world/floors/imc_portable_interior_floor_01_var_aoTexture",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "test/blinn_maya_test",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 32,
+      "height": 32,
+      "textures": [
+        "texture/test/blinn_maya_test/blinn_maya_test_albedoTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_normalTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_glossTexture",
+        "texture/test/blinn_maya_test/blinn_maya_test_specTexture",
+        "",
+        "texture/test/blinn_maya_test/blinn_maya_test_aoTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_03",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_03_col",
+        "texture/world/sleek_city/olympus_painting_01_nml",
+        "texture/world/sleek_city/olympus_painting_01_gls",
+        "texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_04",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_04_col",
+        "texture/defaults/default_nml",
+        "texture/defaults/default_gls",
+        "texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/research_station/research_station_painted_metal_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 1829402249347248230,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_albedoTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_normalTexture",
+        "texture/world/metal/research_station/research_station_painted_metal_01_vc_glossTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03_yellow_dirty_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/stamped_metal_large_painted_03_yellow_dirty_bm",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x497cca2d56ba72",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0xf66f241dced3d7ac",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x3889e5d959281843",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x653cc0e47e1202c0",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x401690799bcd0976",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0xcecb60c22ac2c146",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x660fb46a56c35d14",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0xaf8afced48b3883d",
+        "texture/world/metal/stamped_metal_large_painted_03_yellow_dirty_bm/0x14a3a2529a6f18a3"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/plastic/plastic_floor_black_01_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/plastic_floor_black_01_bm",
+      "flags": 1901312,
+      "flags2": 1912602641,
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/plastic/plastic_floor_black_01_bm/0x40f6eb4a1947ddbf",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x1563c8daaee0fdea",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x4b382c783be1558b",
+        "texture/world/plastic/plastic_floor_black_01_bm/0xdf1456811ef7717c",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/plastic/plastic_floor_black_01_bm/0xce742fa7f2083f77",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x582750f442600aa2",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x367d4ad0b442f50",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x3a1ab151533fe483",
+        "texture/world/plastic/plastic_floor_black_01_bm/0x9dff9284be740de1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/s2s_wall_trim_01_vc_dirty_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc",
+        "",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_ao",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_bm",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_col2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_nml2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_gls2",
+        "texture/world/metal/s2s_wall_trim_01_vc_dirty_bm/s2s_wall_trim_01_vc_dirty_bm_spc2"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/s2s_metal_trims_02_vc_dirty_bm",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedoTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normalTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_glossTexture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_specTexture",
+        "",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_aoTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_layerBlendTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_albedo2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_normal2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_gloss2Texture",
+        "texture/world/metal/s2s_metal_trims_02_vc_dirty_bm/s2s_metal_trims_02_vc_dirty_bm_spec2Texture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_albedoTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_normalTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_glossTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_aoTexture",
+        "",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_detailTexture",
+        "",
+        "",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_detailNormalTexture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_layerBlendTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_albedo2Texture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_normal2Texture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_gloss2Texture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_ao2Texture",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_IndirectSpecularTextureCubeArray",
+        "",
+        "",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_lightmapTexture0",
+        "",
+        "",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_lightmapTexture1",
+        "texture/world/lava_land/volcanic_ground_04_wld_ground_02_wld_bm_CSMDepthAtlasTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_01",
+      "type": "wldc",
+      "surface": "default",
+      "cpu": "cpu/desertlands_mirage_sign_01",
+      "flags": 1901312,
+      "flags2": 1912602641,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_01/0x1798ab4c384419a4",
+        "texture/models/signs/desertlands_mirage_sign_01/0x8c9647619e10e9a6",
+        "texture/models/signs/desertlands_mirage_sign_01/0xa9df10fa91dd2d2d",
+        "texture/models/signs/desertlands_mirage_sign_01/0xa9df10fa91dd2d2d",
+        "",
+        "",
+        "",
+        "texture/models/signs/desertlands_mirage_sign_01/0x309ec0a9d70a372b"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dev/dev_orange_512",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/dev/dev_orange_512_col",
+        "texture/defaults/default_gls",
+        "texture/defaults/default_nml",
+        "texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dev/dev_red_512",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/dev/dev_red_512_col",
+        "texture/defaults/default_gls",
+        "texture/defaults/default_nml",
+        "texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/sleek_city/sleek_city_wood_floor_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/sleek_city/sleek_city_wood_floor_01_col",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_nml",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_gls",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_spc",
+        "",
+        "texture/world/sleek_city/sleek_city_wood_floor_01_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/sleek_city/sleek_city_wood_trims_01_white",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/world/sleek_city/sleek_city_wood_trims_01_white_col",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_nml",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_gls",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_spc",
+        "",
+        "texture/world/sleek_city/sleek_city_wood_trims_01_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/walls/marble_wall_rough_01",
+      "type": "rgdp",
+      "surface": "default",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/walls/olympus_valencia_marble_01_col",
+        "texture/world/walls/olympus_valencia_marble_01_nml",
+        "texture/world/walls/olympus_valencia_marble_rough_01_gls",
+        "texture/world/walls/olympus_valencia_marble_01_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/walls/marble_wall_rough_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/walls/olympus_valencia_marble_01_col",
+        "texture/world/walls/olympus_valencia_marble_01_nml",
+        "texture/world/walls/olympus_valencia_marble_rough_01_gls",
+        "texture/world/walls/olympus_valencia_marble_01_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_wall_trim_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_col",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_spc",
+        "",
+        "texture/world/s2s/s2s_wall_trim_01_vc/s2s_wall_trim_01_vc_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_wall_trim_02_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_col",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_nml",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_gls",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_spc",
+        "",
+        "texture/world/s2s/s2s_wall_trim_02_vc/s2s_wall_trim_02_vc_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_roof_panel_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_col",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_nml",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_gls",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_spc",
+        "",
+        "texture/world/s2s/s2s_roof_panel_01_vc/s2s_roof_panel_01_vc_ao"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/glass/glass_scratched_01/glass_scratched_02_opaque",
+      "type": "wldc",
+      "surface": "glass",
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/glass/glass_scratched_01/glass_scratched_02_col",
+        "texture/world/glass/glass_scratched_01/glass_scratched_01_nml",
+        "texture/world/glass/glass_scratched_01/glass_scratched_01_gls",
+        "texture/world/glass/glass_scratched_01/glass_scratched_01_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/signs/desertlands_mirage_sign_02",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/models/signs/desertlands_mirage_sign_02_col",
+        "texture/world/sleek_city/olympus_painting_01_nml",
+        "texture/world/sleek_city/olympus_painting_01_gls",
+        "texture/defaults/default_spc"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/floors/carpet_red_01",
+      "type": "wldc",
+      "surface": "concrete",
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/floors/carpet_01_red_col",
+        "texture/world/floors/apartment_rug_01_nml",
+        "texture/world/floors/apartment_rug_01_gls"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/walls/lobby_basic_wall_03_stars",
+      "type": "wldc",
+      "surface": "default",
+      "shaderset": 5408606878269739158,
+      "visibilityflags": "opaque",
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/walls/lobby_basic_wall_01_col",
+        "",
+        "",
+        "",
+        "texture/world/walls/lobby_basic_wall_03_stars_ilm",
+        "",
+        "",
+        "texture/world/walls/lobby_basic_wall_03_stars_opa"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/water/water_foamy_fountain_01",
+      "type": "wldc",
+      "surface": "water",
+      "visibilityflags": "opaque",
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/water/water_foamy_fountain_01_col",
+        "texture/world/water/water_foamy_fountain_01_nml",
+        "texture/world/water/water_foamy_fountain_01_gls",
+        "texture/world/water/water_foamy_fountain_01_spc",
+        "",
+        "",
+        "texture/world/water/water_foamy_fountain_01_opa"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03_vert_color",
+      "type": "wldc",
+      "surface": "concrete",
+      "cpu": "cpu/stamped_metal_large_painted_03_vert_color",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 3134464214606249681,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/water/waterpool_03",
+      "type": "wldc",
+      "surface": "water",
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/water/waterpool_03_col",
+        "texture/world/water/waterpool_03_nml",
+        "texture/world/sleek_city/olympus_painting_01_gls",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/water/waterfall_stream_red_01_nml",
+        "",
+        "texture/world/water/relic_ship_runoff_nml",
+        "texture/world/water/waterpool_03_nml"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/utility/light_strip_01_vc",
+      "type": "wldc",
+      "surface": "concrete",
+      "shaderset": 5455669381027863835,
+      "width": 256,
+      "height": 32,
+      "textures": [
+        "texture/world/utility/light_strip_01_col",
+        "",
+        "",
+        "",
+        "texture/world/utility/light_strip_01_ilm"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/water/waterfall_fountain_modern_01",
+      "type": "wldc",
+      "surface": "water",
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/water/waterfall_fountain_modern_01_col",
+        "texture/world/water/waterfall_fountain_modern_01_nml",
+        "texture/world/water/waterfall_fountain_modern_01_gls",
+        "texture/world/water/waterfall_fountain_modern_01_spc",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/detail/vertical_warble_01_col",
+        "texture/world/detail/vertical_warble_01_nml"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/decals_cracks_01",
+      "type": "rgdp",
+      "surface": "grass",
+      "surface2": "dirt",
+      "visibilityflags": "transparent",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/decal/decals_cracks_01_albedoTexture",
+        "texture/world/decal/decals_cracks_01_normalTexture",
+        "texture/world/decal/decals_cracks_01_glossTexture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm",
+      "type": "wldc",
+      "shaderset": 7336819775622644810,
+      "surface": "grass",
+      "surface2": "dirt",
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_albedoTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_normalTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_glossTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_specTexture",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_aoTexture",
+        "",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detailNormalTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_layerBlendTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_albedo2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_normal2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_gloss2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_spec2Texture",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_ao2Texture",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detail2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detailNormal2Texture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm",
+      "type": "rgdc",
+      "shaderset": 6238745190531485468,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_albedoTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_normalTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_glossTexture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_specTexture",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_aoTexture",
+        "",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detailNormalTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_layerBlendTexture",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_albedo2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_normal2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_gloss2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_spec2Texture",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_ao2Texture",
+        "",
+        "",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detail2Texture",
+        "texture/world/stone/sedimentary_rock_cliff_01_to_eroded_dirt_01_bm_detailNormal2Texture"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "cpu": "cpu/rubble_standard02_wld_dirt_dusty_01_wld_bm",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x981308a4ca4e7326",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0xc1bff6a6b69b6422",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x289e9c30fe64c6aa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x4f49fe1171e0fb23",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x258481ecd4dd89f8",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0x5b58e58a5baa0ba8",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_dirt_dusty_01_wld_bm/0xd348173eb1ada8b3"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "cpu": "cpu/rubble_standard02_wld_icelandic_dirt_02_wld_bm",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x981308a4ca4e7326",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xc1bff6a6b69b6422",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x289e9c30fe64c6aa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xfb0dc8b4afc9f022",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xcf7aa6452c93b889",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x54f09e2ad2c6448",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x97f76fb9e18d9eaa",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xcc5527bc1662390f",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0x941d01ddfe88e86e",
+        "texture/world/rubble/rubble_standard02_wld_icelandic_dirt_02_wld_bm/0xa7fac49857f159b6"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm",
+      "type": "wldc",
+      "surface": "grass",
+      "surface2": "dirt",
+      "cpu": "cpu/rubble_standard03_wld_icelandic_dirt_02_wld_bm",
+      "flags": 1901312,
+      "flags2": 1912602624,
+      "shaderset": 7336819775622644810,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xca8f41eaf3f59104",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x981308a4ca4e7326",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xc1bff6a6b69b6422",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x289e9c30fe64c6aa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xfb0dc8b4afc9f022",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xcf7aa6452c93b889",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x54f09e2ad2c6448",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x97f76fb9e18d9eaa",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xcc5527bc1662390f",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0x941d01ddfe88e86e",
+        "texture/world/rubble/rubble_standard03_wld_icelandic_dirt_02_wld_bm/0xa7fac49857f159b6"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/vistas/desertlands_mu1_se.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_1_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_2_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_3_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_5_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_7_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_7_mu1_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_8_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_9_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_10_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_10_mu1_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_11_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_13_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_godrays_zone_16_mu1_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/foliage/grass_burnt_yellow_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/search_light_on_godray_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/search_light_on_godray_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/vistas/iceland_slopeb_mu1.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/stasis/stasis_lab_trim_02/stasis_lab_trim_02_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/vistas/iceland_sloped_mu1.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/stasis/stasis_lab_trim_02/stasis_lab_trim_02_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_city_slanted_building_01_slice_02_crack.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/stasis/stasis_lab_trim_02/stasis_lab_trim_02_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_terrain_section_09_water_2_mu1.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rock_fissure_desertlands_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rock_fissure_desertlands_03.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc",
+        "models/rocks/rock_lava_desertland_01_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_base_column.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_base_cover.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_base_cover_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_base_pipes_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_base_pipes_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_base_pipes_03.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_base_pipes_04.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_tower.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_center_tower_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_hanging_panel.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_hanging_panel_int.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_hinge_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_hinge_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_hydraulics_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_hydraulics_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_leg_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_leg_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_leg_03.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_ring_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_support_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/metal/slum_trim_girdering_01_colpass_rgdc",
+        "world/metal/slum_trim_girdering_01_colpass_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_support_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/metal/slum_trim_girdering_01_colpass_rgdc",
+        "world/metal/slum_trim_girdering_01_colpass_rgdc",
+        "world/metal/slum_trim_girdering_01_colpass_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_mu1_excavator_support_03.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/metal/slum_trim_girdering_01_colpass_rgdc",
+        "world/metal/slum_trim_girdering_01_colpass_rgdc",
+        "world/metal/slum_trim_girdering_01_colpass_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_02_window.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_connector_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_connector_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_end_cap_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_end_cap_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_end_cap_03.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_ext_platform_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_inner_bend_catwalk_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_inner_bend_catwalk_01_45.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_outter_bend_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_outter_bend_01_45.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_outter_bend_catwalk_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/dlands_mu1_mod_extractor_outter_bend_catwalk_01_45.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/cap_city_scraperbridge_03_art.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdc"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_terrain_section_06_mu1_rubble.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/desertlands_section_09_bridge_wide.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_desertlands/cap_city_sniperbuilding_decals.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_01_rebar.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_02_rebar.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_06.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_06_rebar.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_06_rebar.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_07_rebar.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_02b.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_cluster_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_cluster_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_cluster_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_cluster_03.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_cluster_04.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_pile01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rubble_pile_flat_sparse.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/indust_struct_gondola_wheel_base_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["", "", "", "", "", "", ""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/mendoko/pipe_modular_mendoko_16.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/mendoko/pipe_modular_mendoko_32.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/mendoko/pipe_modular_mendoko_32_valve.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/mendoko/pipe_modular_mendoko_64.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/mendoko/pipe_modular_mendoko_128.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/mendoko/pipe_modular_mendoko_corner.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/mendoko/pipe_modular_mendoko_metal_64.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/ola/sewer_staircase_48_double.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["", ""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/ola/sewer_staircase_48_end_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["", ""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/ola/sewer_staircase_48_end_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["", ""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/search_light_off_light_only_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/search_light_on_light_only_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/decals/blood_pool_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_hr_small_apt_a_05_decal.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_grill_cover_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_grill_cover_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_grill_top_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_tt_seating_area_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_grill_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_tt_couch_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_tt_bar_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_hr_small_destroy_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_hr_small_destroy_02.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdc",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_tt_statue.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_tt_blaster_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_portable_int_floor_outter_curve_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_portable_int_floor_inner_curve_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_portable_int_floor_108x256_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_portable_int_floor_108x128_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_city_train_station_railing_broken_glass_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["", "", "world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_city_train_station_railing_broken_glass_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["", "", "world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/desertlands_city_train_station_01_shattered_roof.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["", "", "world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_tt_decal_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/decal/stencil_corporate_white_01_vc_rgdc",
+        "",
+        "",
+        "",
+        "world/decal/stencil_corporate_white_01_vc_rgdc"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/IMC_base/console_door_small_IMC_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/s2s/s2s_railing_small_01_64.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rock_fissure_desertlands_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/domestic/farmland_bedding_blanket_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/thaw/roof_generator_ac.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/fixtures/stasis_light_01_off.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/concrete_broken_chunk_8_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["", "", "", ""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/concrete_broken_chunk_8_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["", "", "", ""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/gibs/Glass_shard_group01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["", ""]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/domestic/porkchop_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/domestic/mirage_jacuzzi_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/domestic/mirage_speaker_01.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/commercial/camera_tv.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/commercial/chair_tv.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/commercial/poster_forge.rmdl",
+      "usePhysics": true,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/fx/mirage_tt_holobust.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/fx/firework_interlace_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/fx/firework_interlace_02.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/fx/firework_interlace_03.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["world/ola/concrete_02_wet_bm_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_tt_lootcap_on.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp",
+        "world/ola/concrete_02_wet_bm_rgdp"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/mirage_phone_01.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": [
+        "models/weapons_r5/loot/ultimate_accelerant/w_loot_wep_iso_ultimate_accelerant_01_rgdp",
+        "models/weapons_r5/loot/ultimate_accelerant/w_loot_wep_iso_ultimate_accelerant_01_rgdp"
+      ]
+    }
+  ]
+}
