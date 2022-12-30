@@ -1,0 +1,4566 @@
+{
+  "$mapversion": 1,
+  "version": 8,
+  "keepDevOnly": true,
+
+  "starpakPath": "paks/Win64/mp_rr_canyonlands_mu2.starpak",
+
+  "assetsDir": ".\\map_assets\\",
+  "outputDir": "D:/SteamLibrary/steamapps/common/Modified Apex/ModifiedApexS3/paks/Win64",
+  "name": "mp_rr_canyonlands_mu2",
+
+  "files": [
+    {
+      "$type": "dtbl",
+      "path": "datatable/map_zones/zones_mp_rr_canyonlands_mu2"
+    },
+    {
+      "$type": "txtrlist",
+      "textures": [
+        "texture/ui_atlas/overviews/mp_rr_canyonlands_mu2",
+        "texture/models/vistas/canyonlands/canyonlands_dropsky_col",
+
+        "texture/defaults/0xbc296807dc655e89",
+        "texture/defaults/0xc965eacb0f51c19b",
+        "texture/defaults/0x8d33339818385289",
+
+        "texture/world/stasis/stasis_lab_trim_02/0xdd870bda72bd37e3",
+        "texture/world/stasis/stasis_lab_trim_02/0x734aaa44322ce705",
+        "texture/world/stasis/stasis_lab_trim_02/0xbd12e3d3aa2697d2",
+        "texture/world/stasis/stasis_lab_trim_02/0x235f4d6ad601e35e",
+        "texture/world/stasis/stasis_lab_trim_02/0x4bd59df3e4fd8a93",
+
+        "texture/world/timeshift/timeshift_metal_trim_01/0x2d213e06acc985e1",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x23e0c77373290627",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x65fb892eeae1c4eb",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x92ae643a1c335b4a",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x93ae7b337b9c7d8a",
+
+        "texture/world/metal/trim_metal_01/0x1623899cb30501d2",
+        "texture/world/metal/trim_metal_01/0x29676a3e382ced4b",
+        "texture/world/metal/trim_metal_01/0x326e61935784b741",
+        "texture/world/metal/trim_metal_01/0xf955c80f26387ade",
+
+        "texture/world/metal/imc_painted_metal_01/0x9a268a444b2ca4a7",
+        "texture/world/metal/imc_painted_metal_01/0x6ee058e128c8ef0c",
+        "texture/world/metal/imc_painted_metal_01/0xa4b4bc7eb5c946ad",
+        "texture/world/metal/imc_painted_metal_01/0x37aa1362703406b3",
+
+        "texture/world/dev/dev_green_light/0x3b44dd1e08e03d2e",
+        "texture/world/dev/dev_green_light/0x3f29faad7febb4ed",
+
+        "texture/atmosphere/atmosphere_500_fade_thick_depth/0xe981eb020020ea77",
+
+        "texture/world/windows/glass_window_bulletproof01_green/0xfd26f684fb78a8eb",
+        "texture/world/windows/glass_window_bulletproof01_green/0x984e508dc2f973df",
+        "texture/world/windows/glass_window_bulletproof01_green/0x681648db7606962",
+        "texture/world/windows/glass_window_bulletproof01_green/0x9976bb7165637d86",
+        "texture/world/windows/glass_window_bulletproof01_green/0x1c540643152f0dcc",
+
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x6c04c255a05b714a",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x2fc24f18458e2de",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x4cc45e80cab3e423",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xb1dd03e61c6f7489",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x21fccd8519f0ea7a",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xd9b972560054e2c1",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x6fce90c267d3d6ec",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xd43de1961b1cb14d",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xa716488b638d3f3f",
+
+        "texture/world/concrete/colony_concrete_panel_c/0x73b0607cb68a2ef0",
+        "texture/world/concrete/colony_concrete_panel_c/0x87db1443a897a7af",
+        "texture/world/concrete/colony_concrete_panel_c/0x90e20b98c7ef71a5",
+        "texture/world/concrete/colony_concrete_panel_c/0x57c9721496a33542",
+
+        "texture/world/decal/charge_decal_sign_01/0x362dfab756e2bc7",
+
+        "texture/world/beacon/stamped_metal_large_painted_03_yellow_a/0xea5f30ac667eb280",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x8bf264967b539e73",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0xbd31d3da19fdd274",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x41ac047ae32a29d1",
+
+        "texture/models/lamps/warning_light_orange/0xfcc75644a1ac4674",
+        "texture/models/lamps/warning_light_orange/0x928af4aed0c10088",
+        "texture/models/lamps/warning_light_orange/0xdc532e3e0ab455eb",
+        "texture/models/lamps/warning_light_orange/0x564d2be59c117999",
+        "texture/models/lamps/warning_light_orange/0xb2bf61741b41bfa4",
+
+        "texture/world/decal/imc_logo_large/0xd5f5e93ee7e84481",
+        "texture/world/decal/imc_logo_large/0x8c9647619e10e9a6",
+        "texture/world/decal/imc_logo_large/0xc26aaaff2b114147",
+        "texture/world/decal/imc_logo_large/0x556001e2ebafd73e",
+
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xbd31d3da19fdd274",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x41ac047ae32a29d1",
+
+        "texture/models/beacon/beacon_cable_trim_01/0x19555cf439c027d0",
+        "texture/models/beacon/beacon_cable_trim_01/0x10aec87a0c32b35e",
+        "texture/models/beacon/beacon_cable_trim_01/0x52c98a3583eb7222",
+        "texture/models/beacon/beacon_cable_trim_01/0x7f7c6540b53d0881",
+        "texture/models/beacon/beacon_cable_trim_01/0x95c3b849a2171ec",
+
+        "texture/world/stasis/stasis_trim_02/0xef10616031cf5b36",
+        "texture/world/stasis/stasis_trim_02/0x8654b5088f6ea68c",
+        "texture/world/stasis/stasis_trim_02/0xcfcffd8b5c27ce0f",
+        "texture/world/stasis/stasis_trim_02/0x34e8a2f0ade35e75",
+        "texture/world/stasis/stasis_trim_02/0x5d5ef379b6ab2fb9",
+
+        "texture/world/decal/slum_grime_decal_01_bt/0x5003a780b9b4bed7",
+        "texture/world/decal/slum_grime_decal_01_bt/0x46c330ed4e758f95",
+        "texture/world/decal/slum_grime_decal_01_bt/0x88ddf2a8c62e4e59",
+        "texture/world/decal/slum_grime_decal_01_bt/0xb590cdb3f77fe4b8",
+        "texture/world/decal/slum_grime_decal_01_bt/0x6909bcde3977aea9",
+        "texture/world/decal/slum_grime_decal_01_bt/0x60227639371325a7",
+
+        "texture/models/IMC_base/holo_projector_large_imc/0x399dd43b3f7d2f7a",
+        "texture/models/IMC_base/holo_projector_large_imc/0xc10ccf4e10ca06dd",
+        "texture/models/IMC_base/holo_projector_large_imc/0x43df15693cdfa3a0",
+        "texture/models/IMC_base/holo_projector_large_imc/0xd7215d5964849186",
+
+        "texture/world/mendoko/mendoko_interior_trim_01/0x102a9de6cb1dd779",
+        "texture/world/mendoko/mendoko_interior_trim_01/0x8b7f8f81eb23aede",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xcd9a513d62dc6da2",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xfa4d2c48a095afe3",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xa4558310ad5e46ed",
+
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x8bfcddfaa3082f8b",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x2436fd07156d1f78",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x6db24589dbf2710a",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0xd2caeaef3a15ad52",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0xfb413b78113ecf0e",
+
+        "texture/world/beacon/beacon_industrial_floor_01/0x93aa1fae1d644845",
+        "texture/world/beacon/beacon_industrial_floor_01/0x2aa1824a2698bd7f",
+        "texture/world/beacon/beacon_industrial_floor_01/0x7469bbd9608c12e2",
+        "texture/world/beacon/beacon_industrial_floor_01/0xd982613ebeaf4f2a",
+        "texture/world/beacon/beacon_industrial_floor_01/0x15ecfaec197eb17",
+
+        "texture/world/floors/imc_int_ground_panels_01/0x21735a5ce5fe3aa8",
+        "texture/world/floors/imc_int_ground_panels_01/0x35511d17583603b4",
+        "texture/world/floors/imc_int_ground_panels_01/0x3f8bd89e32aa5b1b",
+        "texture/world/floors/imc_int_ground_panels_01/0x6733f1a4bcc2604",
+
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0xd9830601ec535c43",
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0x12f7334323e324c2",
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0x97a9ff4d9dc964e6",
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0xc836632640032a52",
+
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0xa16a434457081682",
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0x3814b4d38fc4fecc",
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0x8229df6f7b2cb36a",
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0xe74284d4d31c19c1",
+
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x74c36ab21cd47240",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x882dc3d9945f434e",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x91f515ce156a5d31",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x5a83aa0e74b0a297",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0xe3e2899d084c9074",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x437024f8708d19b",
+
+        "texture/models/props/crafting_replicator/crafting_replicator/0x334e580144b04e77",
+        "texture/models/props/crafting_replicator/crafting_replicator/0x6877160065d896d",
+        "texture/models/props/crafting_replicator/crafting_replicator/0x3c5bd4fd86f6352c",
+        "texture/models/props/crafting_replicator/crafting_replicator/0xd037ff06a1ded696",
+        "texture/models/props/crafting_replicator/crafting_replicator/0xadaf3d48c10ea17f",
+        "texture/models/props/crafting_replicator/crafting_replicator/0x495b708d6b370fb",
+        "texture/models/props/crafting_replicator/crafting_replicator/0xe0cd2d0062bc330a",
+
+        "texture/world/tarps/tarp_green_01/0xb50d1ddc3d3acb9b",
+        "texture/world/tarps/tarp_white_01/0xaf6edfe754f3546f",
+        "texture/world/tarps/tarp_white_01/0x20e14644cd46b158",
+        "texture/world/tarps/tarp_white_01/0x6a0f9dbb015ad164",
+        "texture/world/tarps/tarp_white_01/0xcf28432065b1e39d",
+
+        "texture/models/imc_base/stencil_white_blend_01/0xfffc33675984ffa3",
+        "texture/models/imc_base/stencil_white_blend_01/0x8c9647619e10e9a6",
+        "texture/models/imc_base/stencil_white_blend_01/0xc26aaaff2b114147",
+        "texture/models/imc_base/stencil_white_blend_01/0x556001e2ebafd73e",
+
+        "texture/world/signs/billboard_airbase_01/0xf69426fde90e8cb2",
+        "texture/world/signs/billboard_airbase_01/0xcc34c8c04c5fbc21",
+        "texture/world/signs/billboard_airbase_01/0x1996f479454a09ba",
+        "texture/world/signs/billboard_airbase_01/0x937dce031ad23b3a",
+
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x68d14244043231db",
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x3ebed512c855e348",
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x749338b055563ae9",
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x654cb62293993e7",
+
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x981308a4ca4e7326",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xc1bff6a6b69b6422",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xe045c606cee3df2c",
+
+        "texture/world/concrete/cement_ruined_rubble_01/0xbe8ffe881325114e",
+        "texture/world/concrete/cement_ruined_rubble_01/0x553a70174be1f998",
+        "texture/world/concrete/cement_ruined_rubble_01/0xc26aaaff2b114147",
+        "texture/world/concrete/cement_ruined_rubble_01/0x556001e2ebafd73e",
+
+        "texture/world/signs/sign_nostep_black/0x7cf05a2b05bf2ebc",
+        "texture/world/signs/sign_nostep_black/0x8c9647619e10e9a6",
+
+        "texture/world/concrete/concrete_cracked_01/0x28419ebc57f3fd98",
+        "texture/world/concrete/concrete_cracked_01/0xbf85f264ce62a0b2",
+
+        "texture/world/concrete/concrete_floor_cracks03/0xaf5c6681d58dc4e5",
+        "texture/world/concrete/concrete_floor_cracks03/0x47d47e5bf47d739d",
+
+        "texture/world/decal/decal_drips_wall_v_alpha/0x91e062a522eed811",
+        "texture/world/decal/decal_drips_wall_v_alpha/0xfe882eac62dcd8ac",
+        "texture/world/decal/decal_drips_wall_v_alpha/0x345c9249efdd304d",
+        "texture/world/decal/decal_drips_wall_v_alpha/0xc704f82130a61691",
+
+        "texture/world/concrete/concrete_fillerDamage_01/0x44f66016a79f0376",
+        "texture/world/concrete/concrete_fillerDamage_01/0x3c4fcb9c2fa387b8",
+        "texture/world/concrete/concrete_fillerDamage_01/0x7e6a8d57d8faf604",
+        "texture/world/concrete/concrete_fillerDamage_01/0xab1d68630a4c8c63",
+
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0xf42fe3d666b08e13",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x90c9b5777efe1c36",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x5cc8788b181fd9d1",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x10bc5c6e4b13b3a9",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x5a7f603a7f6a1ab5",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x7c9f01b0be8f52ff",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x99d0accc9e55e62c",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x60b81348797155ab",
+
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x10f4c0795b9fb2d7",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x39d5df54770ebb",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0xf908a2bb183522c9",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x25bb7dc66ebdbcce",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x576582d43acb2739",
+
+        "texture/world/ola/stamped_metal_large/0x85d8a1e15db70650",
+        "texture/world/ola/stamped_metal_large/0x991c8282ab0c6c50",
+        "texture/world/ola/stamped_metal_large/0xa3573e09b71f733f",
+        "texture/world/ola/stamped_metal_large/0x6a3ea4859ea28ea0",
+
+        "texture/world/decal/cement_stripes_decals_darktint/0x3c52e355929c75a7",
+        "texture/world/decal/cement_stripes_decals_darktint/0x4f49d2ea72b7adc7",
+        "texture/world/decal/cement_stripes_decals_darktint/0x59848e71979a0c7a",
+        "texture/world/decal/cement_stripes_decals_darktint/0x206bf4ed664dd017",
+
+        "texture/world/ola/ola_sewer_grate_rusty_01/0x2677d4751eb510dc",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0xbe091929c457866c",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0x73770a055752f97",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0x6c501605c00017c1",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0xb511e216a0a61b4a",
+
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x6cc351d1e45397c8",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x417d206ef38e91b5",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x7751840c74273d74",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xa46daf0222a5198",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x3dbdbfcd02e8b67b",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x594956eba07c2be7",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x293ce884e2a7ce90",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x54af38e5cf86aaa9",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xb5d5b0e26547be47",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xc8cca0777d357be0",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xd3075bfe8314acde",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x27c8f04d49ceceaa",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x89c8039d324c8213",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x9cbef332189b9024",
+
+        "texture/world/sand/sand_fall_01/0xd9581fb1a68ab41b",
+        "texture/world/sand/sand_fall_01/0x42f58cccc5fbd6be",
+        "texture/world/sand/sand_fall_01/0x13662f0be3f9b1f1",
+        "texture/world/sand/sand_fall_01/0x1bcf24241bb03c98",
+
+        "texture/world/decal/cement_stripes_decals_vert/0x4c09b56abdb0753d",
+        "texture/world/decal/cement_stripes_decals_vert/0x4496e5225ddb100f",
+        "texture/world/decal/cement_stripes_decals_vert/0x86b1a6ddd593ced3",
+        "texture/world/decal/cement_stripes_decals_vert/0x66438efa5bcd5190",
+        "texture/world/decal/cement_stripes_decals_vert/0x1f893703d0029e52",
+        "texture/world/decal/cement_stripes_decals_vert/0xaab4ba6d963994c1",
+
+        "texture/world/atmosphere/atmosphere_1500_fade_thick_depth/0xe981eb020020ea77",
+        "texture/world/atmosphere/atmosphere_1000_fade_thick_depth_scroll/0xe76367d5659222f3",
+
+        "texture/world/atmosphere/olympus_clouds_thick_depth_blend_no_animation/0x22ac596cce41a8b2",
+        "texture/world/atmosphere/olympus_clouds_thick_depth_blend_no_animation/0x89ab6c16ba7129db",
+
+        "texture/world/walls/construction_metal_form_walls/0x48095fecf1cc06a0",
+        "texture/world/walls/construction_metal_form_walls_05/0x10466c3a18237908",
+        "texture/world/walls/construction_metal_form_walls_05/0x5b4d408e70c01c28",
+        "texture/world/walls/construction_metal_form_walls_05/0x6587fc15706b7735",
+        "texture/world/walls/construction_metal_form_walls_05/0x2c6f629164563e78",
+        "texture/world/walls/construction_metal_form_walls_05/0xb7287ed7d0dc78f2",
+
+        "texture/models/lamps/light_parking_post/0x73455735e17a374c",
+        "texture/models/lamps/light_parking_post/0x6a9ec2bb9b1d6b16",
+        "texture/models/lamps/light_parking_post/0xacb9847712d629da",
+        "texture/models/lamps/light_parking_post/0xd96c5f82508f6c1b",
+
+        "texture/models/world/metal/rebar/0x1e93b84d550b42be",
+        "texture/models/world/metal/rebar/0x32be6c1440e4e58c",
+        "texture/models/world/metal/rebar/0x3bc5636966708573",
+        "texture/models/world/metal/rebar/0x2acc9e54df3a0d4",
+
+        "texture/world/dirt/mud_to_dirt_01_bm/0xda30c750584396f",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xe1c2f8f908ac2814",
+        "texture/world/dirt/mud_to_dirt_01_bm/0x17975c9695ac7fb5",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xaa8cb37a68e6977f",
+        "texture/world/dirt/mud_to_dirt_01_bm/0x90fa96ad570d1151",
+        "texture/world/dirt/mud_to_dirt_01_bm/0x8987c664f737ac23",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xf58ef388a6494504",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xc87f825ca02e3316",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xde0de9c1f3174a05",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xe848a548f8f67b03",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xaf300bc5121845ec",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xbed0726b3fca8041",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xd348173eb1ada8b3",
+
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0xbae7cfa305ed1e0e",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0xcddebf38240eb198",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0xd8197abf3021b887",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0x9f00e13b17a4d3e8",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0x2a06ee8e0a349406",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0x9d6c62caa99ff0d8",
+
+        "texture/world/beacon/beacon_industrial_floor_01/0x93aa1fae1d644845",
+        "texture/world/beacon/beacon_industrial_floor_01/0x2aa1824a2698bd7f",
+        "texture/world/beacon/beacon_industrial_floor_01/0x7469bbd9608c12e2",
+        "texture/world/beacon/beacon_industrial_floor_01/0xd982613ebeaf4f2a",
+        "texture/world/beacon/beacon_industrial_floor_01/0x15ecfaec197eb17",
+
+        "texture/world/walls/building_walls_metal_03/0x7e0f2512ea830606",
+        "texture/world/walls/building_walls_metal_03/0x75689098a42639d0",
+        "texture/world/walls/building_walls_metal_03/0xb78352541bdef894",
+        "texture/world/walls/building_walls_metal_03/0xe4362d5f7ecf3e7b",
+
+        "texture/world/beacon/beacon_building_overlay_decal_02/0x858b48e9ee5493f1",
+        "texture/world/beacon/beacon_building_overlay_decal_02/0x8c9647619e10e9a6",
+        "texture/world/beacon/beacon_building_overlay_decal_02/0xa2bcf405f3522ac4",
+        "texture/world/beacon/beacon_building_overlay_decal_02/0x69a45a81c205ee61",
+
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xe0d2002c581ebbae",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xbd31d3da19fdd274",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0x41ac047ae32a29d1",
+
+        "texture/models/beacon/beacon_cable_01/0xfcf9b73c1f070e8",
+        "texture/models/beacon/beacon_cable_01/0x2192c6d6e0bb45a6",
+        "texture/models/beacon/beacon_cable_01/0x2d01468f88e7ac51",
+        "texture/models/beacon/beacon_cable_01/0xf3e8ad0bbad8cefe",
+        "texture/models/beacon/beacon_cable_01/0x7d211413d39d7490",
+
+        "texture/world/beacon/stamped_metal_large_painted_03/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03/0xbd31d3da19fdd274",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x41ac047ae32a29d1",
+
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0xf3658ea700b1d4cb",
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0xe8f153e1aeeb3e81",
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0x2b0c159d5842accd",
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0x57bef0a87d2c974a",
+
+        "texture/world/boomtown/boomtown_solid_grate_01/0x421b2e2fde5445bf",
+        "texture/world/boomtown/boomtown_solid_grate_01/0xd91290cb844b5be9",
+        "texture/world/boomtown/boomtown_solid_grate_01/0x240e8e8cbd957018",
+        "texture/world/boomtown/boomtown_solid_grate_01/0x87f36fc035314558",
+        "texture/world/boomtown/boomtown_solid_grate_01/0xb103a262186d725c",
+
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xf613997b09119f4e",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xcacd6817ff7d4177",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x96a0784c052aad7",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x28853cb26685df70",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x45621726db88e6fd",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xa09034cb4c123f24",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x5287d8cce6aa2279",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xb5d5b0e26547be47",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xc8cca0777d357be0",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xd3075bfe8314acde",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x27c8f04d49ceceaa",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x89c8039d324c8213",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x9cbef332189b9024",
+
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x9fe7b1b001d85bc",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x1ca879a35a2f3838",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x26e3352a66423f27",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0xb379ca154658e383",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x700106725afb0741",
+
+        "texture/world/dirt/sand_training_ground_02_alpha/0x5e562e3163ac477c",
+        "texture/world/dirt/sand_training_ground_02_alpha/0x71ccf134fe2b2943",
+        "texture/world/dirt/sand_training_ground_02_alpha/0xc26aaaff2b114147",
+        "texture/world/dirt/sand_training_ground_02_alpha/0x556001e2ebafd73e",
+
+        "texture/models/buildings/window_broken_glass/0x6896cd36cdcb2c03",
+        "texture/models/buildings/window_broken_glass/0x3ed1511230c7bad8",
+        "texture/models/buildings/window_broken_glass/0xc26aaaff2b114147",
+        "texture/models/buildings/window_broken_glass/0x556001e2ebafd73e",
+
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x790db9a30bfb91db",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x8a83f3f97952075e",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x1934a85d583f84da",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0xe01c0ed926f34877",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x635d8b50cf066d38",
+
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xe8790526b10190e9",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x984e508dc2f973df",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xc938a151f4295b86",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x2e5146b7524c97ce",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x4f7817d0edd2ef4f",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xb60fb6e83371ac76",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x715eb58513675594",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x6c662836f26cc13e",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xfb67e98bee9ca6ee",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x925f4c27a0fb68fa",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xdc2785b6e7566a3f",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x41402b1c51e15269",
+
+        "texture/models/lamps/warning_light_orange_off/0xfcc75644a1ac4674",
+        "texture/models/lamps/warning_light_orange_off/0x928af4aed0c10088",
+        "texture/models/lamps/warning_light_orange_off/0xdc532e3e0ab455eb",
+        "texture/models/lamps/warning_light_orange_off/0x429f97d542f74d59",
+        "texture/models/lamps/warning_light_orange_off/0x6a7c06454c13bf37",
+
+        "texture/models/door/imc_double_door_128x256_01/0xf7024076fdf5b6a5",
+        "texture/models/door/imc_double_door_128x256_01/0x8dacb2065be9a295",
+        "texture/models/door/imc_double_door_128x256_01/0xd7c1dca2031725d8",
+        "texture/models/door/imc_double_door_128x256_01/0x3cda8207613a6220",
+        "texture/models/door/imc_double_door_128x256_01/0xacfa4ba6778b2fd5",
+        "texture/models/door/imc_double_door_128x256_01/0x64b6f0774b53a649",
+
+        "texture/world/moss/moss_green_exo_01_bt/0x3e76d6dc6ca93050",
+        "texture/world/moss/moss_green_exo_01_bt/0x6a887017ecd2b80f",
+        "texture/world/moss/moss_green_exo_01_bt/0xa05cd3b5739f39bf",
+        "texture/world/moss/moss_green_exo_01_bt/0x31d1755acde0b8fb",
+        "texture/world/moss/moss_green_exo_01_bt/0x64f64aa6d3c10429",
+
+        "texture/world/mcor/mcor_wall_trim_03/0x6b000ac79a9cc263",
+        "texture/world/mcor/mcor_wall_trim_03/0xe85d984ec95b4a3d",
+        "texture/world/mcor/mcor_wall_trim_03/0x3525e1eee19d6625",
+        "texture/world/mcor/mcor_wall_trim_03/0xafa69d91c338a2ed",
+        "texture/world/mcor/mcor_wall_trim_03/0xe36a737adf928628",
+
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0xa8a0e891dcd6014c",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0x3f984b2df2722268",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0x896084bd2c6577cb",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0xee792a227e210831",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0x16559892873d7a0f",
+
+        "texture/models/menu/menu_cubemap_01_char_select/0xe1925213840f893f",
+
+        "texture/world/decal/decals_cracks_02/0xf5819d817de4446",
+        "texture/world/decal/decals_cracks_02/0x57dc12beafa1108",
+        "texture/world/decal/decals_cracks_02/0x479882e762b2cfcc",
+
+        "texture/world/decal/decals_cracks_01/0x20c9f313df859cad",
+        "texture/world/decal/decals_cracks_01/0x16ef9a67b2a1696f",
+        "texture/world/decal/decals_cracks_01/0x590a5c235bf8d7bb",
+
+        "texture/models/world/decal/decals_grime_drips_01/0xed35751fe470ed35",
+        "texture/models/world/decal/decals_grime_drips_01/0x8c9647619e10e9a6",
+        "texture/models/world/decal/decals_grime_drips_01/0xc26aaaff2b114147",
+        "texture/models/world/decal/decals_grime_drips_01/0x556001e2ebafd73e",
+
+        "texture/models/industrial/window_wired/0x25a73f76dc01ee63",
+        "texture/models/industrial/window_wired/0x984e508dc2f973df",
+        "texture/models/industrial/window_wired/0x666dba20c8e372d",
+        "texture/models/industrial/window_wired/0x6b7f810770e54966",
+
+        "texture/models/industrial/window_wired_frame/0x874a805f06546e7",
+        "texture/models/industrial/window_wired_frame/0xdce18596b79d169a",
+        "texture/models/industrial/window_wired_frame/0xc26aaaff2b114147",
+        "texture/models/industrial/window_wired_frame/0x556001e2ebafd73e",
+
+        "texture/models/lamps/light_hanging_industrial_02_on/0xf5e9b9e3b2563f1b",
+        "texture/models/lamps/light_hanging_industrial_02_on/0xcb8a5ba62e76c64e",
+        "texture/models/lamps/light_hanging_industrial_02_on/0x15ebf43b54347fe",
+        "texture/models/lamps/light_hanging_industrial_02_on/0x92d360e91bec731c",
+        "texture/models/lamps/light_hanging_industrial_02_on/0x704a9f2b2880bc32",
+
+        "texture/models/beacon/support_wall_beam_angled_02/0x5dc5270afef88c76",
+        "texture/models/beacon/support_wall_beam_angled_01/0x89ac5bca26c18b51",
+        "texture/models/beacon/support_wall_beam_angled_01/0x710907ac9cefcfb3",
+        "texture/models/beacon/support_wall_beam_angled_01/0x7b43c3335860f965",
+        "texture/models/beacon/support_wall_beam_angled_01/0x422b29af8a521c12",
+        "texture/models/beacon/support_wall_beam_angled_01/0xcce445f60340026e",
+
+        "texture/models/garbage/trash_bin_single_blue/0x4e8a665f79e2a052",
+        "texture/models/garbage/trash_bin_single_blue/0x23912608e9f01c3d",
+        "texture/models/garbage/trash_bin_single_blue/0x70596fa8ef96b652",
+        "texture/models/garbage/trash_bin_single_blue/0xec0def7d9eea025e",
+
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xa38bd76ba46058c5",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0x9b7f250a51474013",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xdd99e6c5fa9eae5f",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xa4cc1d12bf044be",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0x6118ee9e7b6205a8",
+
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0xd8da9d63a82fd86b",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x7db0930c64ed6215",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0xf6f59e8afad17ce3",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x4ed2b50f6b1f0638",
+
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0xd8da9d63a82fd86b",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x7db0930c64ed6215",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0xf6f59e8afad17ce3",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x4ed2b50f6b1f0638",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_burnt/0x33102b406a19c30b",
+
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xc65f6d9d36bd1b30",
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xeadb4af1dd5dc96f",
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xe3de09c56aee8479",
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xaac57041650d21ad",
+
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x12280ed37caf0d96",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0xa8d28062b56bf5e0",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0xf1b3e6ccba4c4376",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x58005063f8c310d5",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x15f1dd401288c3b0",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x81a598402055e71c",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x784be8050eec6f64",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x4dec89c77ea54ab5",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x83c0ed650571cc65",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x15358f0a5fb34ba1",
+
+        "texture/debug/debugempty/0xb8765add694a4b79",
+
+        "texture/models/timeshift/timeshift_trashbin_01/0x307d1195ea7975e0",
+        "texture/models/timeshift/timeshift_trashbin_01/0x44a7c55cd65318ae",
+        "texture/models/timeshift/timeshift_trashbin_01/0x501645158ae72b3b",
+        "texture/models/timeshift/timeshift_trashbin_01/0x16fdab91b070a206",
+        "texture/models/timeshift/timeshift_trashbin_01/0x10d9a689c89e369",
+        "texture/models/timeshift/timeshift_trashbin_01/0xc9539789ac31ec0d",
+
+        "texture/models/rubble/concrete_chunk_small01/0x902e37d958a4cd44",
+        "texture/models/rubble/concrete_chunk_small01/0x65ced99c066403ff",
+        "texture/models/rubble/concrete_chunk_small01/0xc26aaaff2b114147",
+        "texture/models/rubble/concrete_chunk_small01/0x556001e2ebafd73e",
+
+        "texture/world/tarps/tarp_yellow_01/0x8950018ff6058c40",
+
+        "texture/models/world/roof/tiblisi_roof_panels/0x6da0cebd5d541cd0",
+        "texture/models/world/roof/tiblisi_roof_panels/0x81cb82844f61958f",
+        "texture/models/world/roof/tiblisi_roof_panels/0x8ad279d96eb95f85",
+        "texture/models/world/roof/tiblisi_roof_panels/0x51b9e0553d6d2322",
+
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0xb0274830403f2320",
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0x34094de0db6f4156",
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0x921aa88d5d86a8e3",
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0xf5ff89c0afeb7a7d",
+
+        "texture/models/domestic/electric_box_city/0x4facb18da1ecea9d",
+        "texture/models/domestic/electric_box_city/0x62f0922f2714d616",
+        "texture/models/domestic/electric_box_city/0xc26aaaff2b114147",
+        "texture/models/domestic/electric_box_city/0x556001e2ebafd73e",
+
+        "texture/models/world/concrete/street_curb_concrete_a/0xce68a688471ee483",
+        "texture/models/world/concrete/street_curb_concrete_a/0xe2935a4f2690db6f",
+        "texture/models/world/concrete/street_curb_concrete_a/0xecce15d63f0b8e40",
+        "texture/models/world/concrete/street_curb_concrete_a/0xb38f03cbe9bdbcc0",
+
+        "texture/models/foliage/lilypad_cluster_02/0x997000a4becd408a",
+        "texture/models/foliage/lilypad_cluster_02/0xade7a57811ad3b47",
+        "texture/models/foliage/lilypad_cluster_02/0x272cb0f6c060add9",
+        "texture/models/foliage/lilypad_cluster_02/0x7dd603491888209e",
+        "texture/models/foliage/lilypad_cluster_02/0x9c2e3c177fd6e02",
+
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xf9b1e6f3b7aa94e7",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xca8d6889df9a2f8",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0x85ede207277611e4",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xddcaf88b8b5bef57",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xee0b8f108b85e739",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0x8b76479a8bfbf5b8",
+
+        "texture/models/industrial/tube_aircraft_service_01/0x4448d581a444c501",
+        "texture/models/industrial/tube_aircraft_service_01/0xdb40381d630b32ef",
+        "texture/models/industrial/tube_aircraft_service_01/0xedb3f7a1f8eab57e",
+        "texture/models/industrial/tube_aircraft_service_01/0x51eb7e34a76ef76b",
+
+        "texture/models/colony/antenna_06_1_colony/0x981ee327a3f253c7",
+        "texture/models/colony/antenna_06_1_colony/0xac9687fb1c09522a",
+        "texture/models/colony/antenna_06_1_colony/0x25db9379a585c116",
+        "texture/models/colony/antenna_06_1_colony/0x7c84e5cc22e43781",
+
+        "texture/world/metal/metal_cargo_container_blue_01/0x97261cf02e66435e",
+        "texture/world/metal/metal_cargo_container_blue_01/0xab03dfaabfa13a1f",
+        "texture/world/metal/metal_cargo_container_blue_01/0xb6725f6393387a61",
+
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xee09aca94ae6945d",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xc2c37b461c1b32e0",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xf897dee3a2e7b490",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0x8b8d35c78289783c",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xbf041aa431a92d97",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xc9a4481d1a139249",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xe16b6ffcb53ea5a6",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xb6722fa63e1b7955",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xec469343beb42514",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0x7eeef91aece18985",
+
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x6fd3b319ce79e2fa",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x84bcaf3c8328e0c",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x51c71376ba22b935",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0xb5abf4aa3e263a57",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x26ff827b2e96c332",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0xdebc274bfc2b63b5",
+
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x82e91004e5a886d0",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x1b6127def83089a6",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x64dc7061ea20b4cf",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0xc8c151955554de2d",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x38e11b345f3e0000",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0xf09dc0055e71500b",
+
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0x63d83ee02adf262d",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xfb1c92887c16c5a1",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0x4497db0b429c1733",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xa9b080708e23d1a8",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0x1a6a2c28b6bb8096",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xd226d0f99d1f78dd",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xcad7518a04732583",
+
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0xbbc5c3e031b7c9be",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x530a17885db8658c",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x9c85600b4fa890b5",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x19e0570a164211b",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x28e091c79e6d87b1",
+
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x268c8ac59f37308b",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0xbc9d1a3c22b6c0bb",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x61862bed06cba89",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x6c64cc560ee387e8",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x94413ac62a9b7b99"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "DONOTRENDER",
+      "type": "sknc",
+      "visflags": "colpass",
+      "drawflags": "wireframe",
+      "shaderset": 10375202460403619405,
+      "width": 512,
+      "height": 512,
+      "textures": ["", "", "", "", "", "", ""]
+    },
+    {
+      "$type": "matl",
+      "path": "DONOTRENDER",
+      "type": "sknp",
+      "visflags": "colpass",
+      "drawflags": "wireframe",
+      "shaderset": 3234520069253039026,
+      "width": 512,
+      "height": 512,
+      "textures": ["", "", "", "", "", "", ""]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/colony_concrete_panel_c",
+      "type": "rgdp",
+      "cpu": "cpu/colony_concrete_panel_c",
+      "visflags": 17,
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/colony_concrete_panel_c/0x73b0607cb68a2ef0",
+        "texture/world/concrete/colony_concrete_panel_c/0x87db1443a897a7af",
+        "texture/world/concrete/colony_concrete_panel_c/0x90e20b98c7ef71a5",
+        "texture/world/concrete/colony_concrete_panel_c/0x57c9721496a33542"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/world/roof/tiblisi_roof_panels",
+      "type": "rgdp",
+      "cpu": "cpu/tiblisi_roof_panels",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/models/world/roof/tiblisi_roof_panels/0x6da0cebd5d541cd0",
+        "texture/models/world/roof/tiblisi_roof_panels/0x81cb82844f61958f",
+        "texture/models/world/roof/tiblisi_roof_panels/0x8ad279d96eb95f85",
+        "texture/models/world/roof/tiblisi_roof_panels/0x51b9e0553d6d2322"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/domestic/electric_box_city",
+      "type": "rgdp",
+      "cpu": "cpu/electric_box_city",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/domestic/electric_box_city/0x4facb18da1ecea9d",
+        "texture/models/domestic/electric_box_city/0x62f0922f2714d616",
+        "texture/models/domestic/electric_box_city/0xc26aaaff2b114147",
+        "texture/models/domestic/electric_box_city/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/world/concrete/street_curb_concrete_a",
+      "type": "rgdp",
+      "cpu": "cpu/street_curb_concrete_a",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 64,
+      "textures": [
+        "texture/models/world/concrete/street_curb_concrete_a/0xce68a688471ee483",
+        "texture/models/world/concrete/street_curb_concrete_a/0xe2935a4f2690db6f",
+        "texture/models/world/concrete/street_curb_concrete_a/0xecce15d63f0b8e40",
+        "texture/models/world/concrete/street_curb_concrete_a/0xb38f03cbe9bdbcc0"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/vehicle/redeye/landing_pad_pipes_02",
+      "type": "rgdp",
+      "cpu": "cpu/landing_pad_pipes_02",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0xb0274830403f2320",
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0x34094de0db6f4156",
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0x921aa88d5d86a8e3",
+        "texture/models/vehicle/redeye/landing_pad_pipes_02/0xf5ff89c0afeb7a7d"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/decals_cracks_01",
+      "type": "rgdp",
+      "cpu": "cpu/decals_cracks_01",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/decals_cracks_01/0x20c9f313df859cad",
+        "texture/world/decal/decals_cracks_01/0x16ef9a67b2a1696f",
+        "texture/world/decal/decals_cracks_01/0x590a5c235bf8d7bb",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/decals_cracks_02",
+      "type": "rgdp",
+      "cpu": "cpu/decals_cracks_02",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 3918825562514114522,
+      "width": 2048,
+      "height": 512,
+      "textures": [
+        "texture/world/decal/decals_cracks_02/0xf5819d817de4446",
+        "texture/world/decal/decals_cracks_02/0x57dc12beafa1108",
+        "texture/world/decal/decals_cracks_02/0x479882e762b2cfcc",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/world/decal/decals_grime_drips_01",
+      "type": "rgdp",
+      "cpu": "cpu/decals_grime_drips_01",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 512,
+      "height": 256,
+      "textures": [
+        "texture/models/world/decal/decals_grime_drips_01/0xed35751fe470ed35",
+        "texture/models/world/decal/decals_grime_drips_01/0x8c9647619e10e9a6",
+        "texture/models/world/decal/decals_grime_drips_01/0xc26aaaff2b114147",
+        "texture/models/world/decal/decals_grime_drips_01/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/garbage/trash_bin_single_blue",
+      "type": "rgdp",
+      "cpu": "cpu/trash_bin_single_blue",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/garbage/trash_bin_single_blue/0x4e8a665f79e2a052",
+        "texture/models/garbage/trash_bin_single_blue/0x23912608e9f01c3d",
+        "texture/models/garbage/trash_bin_single_blue/0x70596fa8ef96b652",
+        "texture/models/garbage/trash_bin_single_blue/0xec0def7d9eea025e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/lamps/light_hanging_industrial_02_on",
+      "type": "rgdp",
+      "cpu": "cpu/light_hanging_industrial_02_on",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3039282842564146133,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/lamps/light_hanging_industrial_02_on/0xf5e9b9e3b2563f1b",
+        "texture/models/lamps/light_hanging_industrial_02_on/0xcb8a5ba62e76c64e",
+        "texture/models/lamps/light_hanging_industrial_02_on/0x15ebf43b54347fe",
+        "texture/models/lamps/light_hanging_industrial_02_on/0x92d360e91bec731c",
+        "texture/models/lamps/light_hanging_industrial_02_on/0x704a9f2b2880bc32"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/moss/moss_green_exo_01_bt",
+      "type": "rgdp",
+      "cpu": "cpu/moss_green_exo_01_bt",
+      "flags": 1901312,
+      "flags2": 1442840611,
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 16105937836693448766,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/moss/moss_green_exo_01_bt/0x3e76d6dc6ca93050",
+        "texture/world/moss/moss_green_exo_01_bt/0x6a887017ecd2b80f",
+        "texture/world/moss/moss_green_exo_01_bt/0xa05cd3b5739f39bf",
+        "texture/world/moss/moss_green_exo_01_bt/0x31d1755acde0b8fb",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/moss/moss_green_exo_01_bt/0x64f64aa6d3c10429"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/foliage/lilypad_cluster_02",
+      "type": "rgdp",
+      "cpu": "cpu/lilypad_cluster_02",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3134464214606249681,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/foliage/lilypad_cluster_02/0x997000a4becd408a",
+        "texture/models/foliage/lilypad_cluster_02/0xade7a57811ad3b47",
+        "texture/models/foliage/lilypad_cluster_02/0x272cb0f6c060add9",
+        "texture/models/foliage/lilypad_cluster_02/0x7dd603491888209e",
+        "",
+        "texture/models/foliage/lilypad_cluster_02/0x9c2e3c177fd6e02"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_wall_trim_01_vc",
+      "type": "wldc",
+      "cpu": "cpu/s2s_wall_trim_01_vc",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3134464214606249681,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x8bfcddfaa3082f8b",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x2436fd07156d1f78",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x6db24589dbf2710a",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0xd2caeaef3a15ad52",
+        "",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0xfb413b78113ecf0e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/beacon/beacon_wallrun_arm_pieces_01",
+      "type": "rgdp",
+      "cpu": "cpu/beacon_wallrun_arm_pieces_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0xa8a0e891dcd6014c",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0x3f984b2df2722268",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0x896084bd2c6577cb",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0xee792a227e210831",
+        "",
+        "texture/models/beacon/beacon_wallrun_arm_pieces_01/0x16559892873d7a0f"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/tarps/tarp_green_01",
+      "type": "rgdp",
+      "cpu": "cpu/tarp_green_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/world/tarps/tarp_green_01/0xb50d1ddc3d3acb9b",
+        "texture/world/tarps/tarp_white_01/0x20e14644cd46b158",
+        "texture/world/tarps/tarp_white_01/0x6a0f9dbb015ad164",
+        "texture/world/tarps/tarp_white_01/0xcf28432065b1e39d"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/tarps/tarp_yellow_01",
+      "type": "rgdp",
+      "cpu": "cpu/tarp_yellow_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/world/tarps/tarp_yellow_01/0x8950018ff6058c40",
+        "texture/world/tarps/tarp_white_01/0x20e14644cd46b158",
+        "texture/world/tarps/tarp_white_01/0x6a0f9dbb015ad164",
+        "texture/world/tarps/tarp_white_01/0xcf28432065b1e39d"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/metal_cargo_container_blue_01",
+      "type": "rgdp",
+      "cpu": "cpu/metal_cargo_container_blue_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 13727233063198696683,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/metal/metal_cargo_container_blue_01/0x97261cf02e66435e",
+        "texture/world/metal/metal_cargo_container_blue_01/0xab03dfaabfa13a1f",
+        "texture/world/metal/metal_cargo_container_blue_01/0xb6725f6393387a61"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/world/ceiling/ceiling_stucco_panels_dirty_4x4",
+      "type": "rgdp",
+      "cpu": "cpu/ceiling_stucco_panels_dirty_4x4",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xc65f6d9d36bd1b30",
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xeadb4af1dd5dc96f",
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xe3de09c56aee8479",
+        "texture/models/world/ceiling/ceiling_stucco_panels_dirty_4x4/0xaac57041650d21ad"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/harmony_mines/rock/harmony_mines_rockchunks_01_dark",
+      "type": "rgdp",
+      "cpu": "cpu/harmony_mines_rockchunks_01_dark",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5496899406898731799,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0xd8da9d63a82fd86b",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x7db0930c64ed6215",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0xf6f59e8afad17ce3",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x4ed2b50f6b1f0638"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/harmony_mines/rock/harmony_mines_rockchunks_01_burnt",
+      "type": "rgdp",
+      "cpu": "cpu/harmony_mines_rockchunks_01_burnt",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5496899406898731799,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_burnt/0x33102b406a19c30b",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x7db0930c64ed6215",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0xf6f59e8afad17ce3",
+        "texture/models/harmony_mines/rock/harmony_mines_rockchunks_01_dark/0x4ed2b50f6b1f0638"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/ola/sewers_wall_01_wet_01_bm",
+      "type": "rgdp",
+      "cpu": "cpu/sewers_wall_01_wet_01_bm",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 13591338450309668403,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xee09aca94ae6945d",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xc2c37b461c1b32e0",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xf897dee3a2e7b490",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0x8b8d35c78289783c",
+        "",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xbf041aa431a92d97",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xc9a4481d1a139249",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xe16b6ffcb53ea5a6",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xb6722fa63e1b7955",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0xec469343beb42514",
+        "texture/world/ola/sewers_wall_01_wet_01_bm/0x7eeef91aece18985"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/lights/modern_fluorescent_wall_lights_01",
+      "type": "rgdp",
+      "cpu": "cpu/modern_fluorescent_wall_lights_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3039282842564146133,
+      "width": 512,
+      "height": 256,
+      "textures": [
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xa38bd76ba46058c5",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0x9b7f250a51474013",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xdd99e6c5fa9eae5f",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xa4cc1d12bf044be",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0x6118ee9e7b6205a8"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/lights/modern_fluorescent_wall_lights_01_off",
+      "type": "rgdp",
+      "cpu": "cpu/modern_fluorescent_wall_lights_01_off",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 512,
+      "height": 256,
+      "textures": [
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xa38bd76ba46058c5",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0x9b7f250a51474013",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xdd99e6c5fa9eae5f",
+        "texture/models/lights/modern_fluorescent_wall_lights_01/0xa4cc1d12bf044be"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/industrial/window_wired",
+      "type": "rgdp",
+      "cpu": "cpu/window_wired",
+      "flags": 1901312,
+      "flags2": 1442840610,
+      "visflags": 7,
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 4649793831690046063,
+      "width": 256,
+      "height": 512,
+      "textures": [
+        "texture/models/industrial/window_wired/0x25a73f76dc01ee63",
+        "texture/models/industrial/window_wired/0x984e508dc2f973df",
+        "texture/models/industrial/window_wired/0x666dba20c8e372d",
+        "texture/models/industrial/window_wired/0x6b7f810770e54966"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/industrial/window_wired_frame",
+      "type": "rgdp",
+      "cpu": "cpu/window_wired_frame",
+      "flags": 1901312,
+      "flags2": 1442840608,
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 512,
+      "height": 1024,
+      "textures": [
+        "texture/models/industrial/window_wired_frame/0x874a805f06546e7",
+        "texture/models/industrial/window_wired_frame/0xdce18596b79d169a",
+        "texture/models/industrial/window_wired_frame/0xc26aaaff2b114147",
+        "texture/models/industrial/window_wired_frame/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_wall_trim_01_vc",
+      "type": "rgdp",
+      "cpu": "cpu/s2s_wall_trim_01_vc",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 1623025765778667453,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x8bfcddfaa3082f8b",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x2436fd07156d1f78",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0x6db24589dbf2710a",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0xd2caeaef3a15ad52",
+        "",
+        "texture/world/s2s/s2s_wall_trim_01_vc/0xfb413b78113ecf0e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/industrial/tube_aircraft_service_01",
+      "type": "rgdp",
+      "cpu": "cpu/tube_aircraft_service_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 512,
+      "height": 256,
+      "textures": [
+        "texture/models/industrial/tube_aircraft_service_01/0x4448d581a444c501",
+        "texture/models/industrial/tube_aircraft_service_01/0xdb40381d630b32ef",
+        "texture/models/industrial/tube_aircraft_service_01/0xedb3f7a1f8eab57e",
+        "texture/models/industrial/tube_aircraft_service_01/0x51eb7e34a76ef76b"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/beacon/support_wall_beam_angled_01",
+      "type": "rgdp",
+      "cpu": "cpu/support_wall_beam_angled_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 512,
+      "height": 1024,
+      "textures": [
+        "texture/models/beacon/support_wall_beam_angled_01/0x89ac5bca26c18b51",
+        "texture/models/beacon/support_wall_beam_angled_01/0x710907ac9cefcfb3",
+        "texture/models/beacon/support_wall_beam_angled_01/0x7b43c3335860f965",
+        "texture/models/beacon/support_wall_beam_angled_01/0x422b29af8a521c12",
+        "",
+        "texture/models/beacon/support_wall_beam_angled_01/0xcce445f60340026e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/beacon/support_wall_beam_angled_02",
+      "type": "rgdp",
+      "cpu": "cpu/support_wall_beam_angled_02",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 512,
+      "height": 1024,
+      "textures": [
+        "texture/models/beacon/support_wall_beam_angled_02/0x5dc5270afef88c76",
+        "texture/models/beacon/support_wall_beam_angled_01/0x710907ac9cefcfb3",
+        "texture/models/beacon/support_wall_beam_angled_01/0x7b43c3335860f965",
+        "texture/models/beacon/support_wall_beam_angled_01/0x422b29af8a521c12",
+        "",
+        "texture/models/beacon/support_wall_beam_angled_01/0xcce445f60340026e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/mcor/mcor_wall_trim_03",
+      "type": "rgdp",
+      "cpu": "cpu/mcor_wall_trim_03",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/mcor/mcor_wall_trim_03/0x6b000ac79a9cc263",
+        "texture/world/mcor/mcor_wall_trim_03/0xe85d984ec95b4a3d",
+        "texture/world/mcor/mcor_wall_trim_03/0x3525e1eee19d6625",
+        "texture/world/mcor/mcor_wall_trim_03/0xafa69d91c338a2ed",
+        "",
+        "texture/world/mcor/mcor_wall_trim_03/0xe36a737adf928628"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_plates_bunker_02_brkn_BM_01",
+      "type": "rgdp",
+      "cpu": "cpu/concrete_plates_bunker_02_brkn_BM_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 12338877594718562796,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x12280ed37caf0d96",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0xa8d28062b56bf5e0",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0xf1b3e6ccba4c4376",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x58005063f8c310d5",
+        "",
+        "",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x15f1dd401288c3b0",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x81a598402055e71c",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x784be8050eec6f64",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x4dec89c77ea54ab5",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x83c0ed650571cc65",
+        "texture/world/concrete/concrete_plates_bunker_02_brkn_BM_01/0x15358f0a5fb34ba1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "debug/debugempty",
+      "type": "rgdp",
+      "cpu": "cpu/debugempty",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 256,
+      "height": 256,
+      "textures": ["texture/debug/debugempty/0xb8765add694a4b79", "", "", ""]
+    },
+    {
+      "$type": "matl",
+      "path": "world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04",
+      "type": "rgdp",
+      "cpu": "cpu/s2s_bridge_glass_cracked_04",
+      "visflags": 7,
+      "drawflags": 2,
+      "unkflags": 5,
+      "shaderset": 5635952484316950849,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x790db9a30bfb91db",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x8a83f3f97952075e",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x1934a85d583f84da",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0xe01c0ed926f34877",
+        "",
+        "",
+        "",
+        "texture/world/s2s/s2s_bridge_glass_cracked_01/s2s_bridge_glass_cracked_04/0x635d8b50cf066d38"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/timeshift/timeshift_trashbin_01",
+      "type": "rgdp",
+      "cpu": "cpu/timeshift_trashbin_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6476659620091840900,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/timeshift/timeshift_trashbin_01/0x307d1195ea7975e0",
+        "texture/models/timeshift/timeshift_trashbin_01/0x44a7c55cd65318ae",
+        "texture/models/timeshift/timeshift_trashbin_01/0x501645158ae72b3b",
+        "texture/models/timeshift/timeshift_trashbin_01/0x16fdab91b070a206",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/timeshift/timeshift_trashbin_01/0x10d9a689c89e369",
+        "texture/models/timeshift/timeshift_trashbin_01/0xc9539789ac31ec0d"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/foliage/plant_tropical_ground_leafy_01_animated",
+      "type": "rgdp",
+      "cpu": "cpu/plant_tropical_ground_leafy_01_animated",
+      "drawflags": 2,
+      "unkflags": 4,
+      "shaderset": 6476659620091840900,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xf9b1e6f3b7aa94e7",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xca8d6889df9a2f8",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0x85ede207277611e4",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xddcaf88b8b5bef57",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0xee0b8f108b85e739",
+        "texture/models/foliage/plant_tropical_ground_leafy_01_animated/0x8b76479a8bfbf5b8"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/timeshift/windows/ts_window01_dark_cracked_bm",
+      "type": "rgdp",
+      "cpu": "cpu/ts_window01_dark_cracked_bm",
+      "visflags": 7,
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 5635952484316950849,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xe8790526b10190e9",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x984e508dc2f973df",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xc938a151f4295b86",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x2e5146b7524c97ce",
+        "",
+        "",
+        "",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x4f7817d0edd2ef4f",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xb60fb6e83371ac76",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x715eb58513675594",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x6c662836f26cc13e",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xfb67e98bee9ca6ee",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x925f4c27a0fb68fa",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xdc2785b6e7566a3f",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x41402b1c51e15269",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0xb60fb6e83371ac76",
+        "texture/world/timeshift/windows/ts_window01_dark_cracked_bm/0x715eb58513675594"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/beacon_industrial_floor_01/beacon_industrial_floor_01",
+      "type": "rgdp",
+      "cpu": "cpu/beacon_industrial_floor_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/beacon_industrial_floor_01/0x93aa1fae1d644845",
+        "texture/world/beacon/beacon_industrial_floor_01/0x2aa1824a2698bd7f",
+        "texture/world/beacon/beacon_industrial_floor_01/0x7469bbd9608c12e2",
+        "texture/world/beacon/beacon_industrial_floor_01/0xd982613ebeaf4f2a",
+        "",
+        "texture/world/beacon/beacon_industrial_floor_01/0x15ecfaec197eb17"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/menu/menu_cubemap_01_char_select",
+      "type": "rgdp",
+      "cpu": "cpu/menu_cubemap_01_char_select",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3987545199176679999,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/models/menu/menu_cubemap_01_char_select/0xe1925213840f893f"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/rubble/concrete_chunk_small01",
+      "type": "rgdp",
+      "cpu": "cpu/concrete_chunk_small01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 256,
+      "height": 256,
+      "textures": [
+        "texture/models/rubble/concrete_chunk_small01/0x902e37d958a4cd44",
+        "texture/models/rubble/concrete_chunk_small01/0x65ced99c066403ff",
+        "texture/models/rubble/concrete_chunk_small01/0xc26aaaff2b114147",
+        "texture/models/rubble/concrete_chunk_small01/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/colony/antenna_06_1_colony",
+      "type": "rgdp",
+      "cpu": "cpu/antenna_06_1_colony",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/colony/antenna_06_1_colony/0x981ee327a3f253c7",
+        "texture/models/colony/antenna_06_1_colony/0xac9687fb1c09522a",
+        "texture/models/colony/antenna_06_1_colony/0x25db9379a585c116",
+        "texture/models/colony/antenna_06_1_colony/0x7c84e5cc22e43781"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/lamps/light_parking_post",
+      "type": "rgdp",
+      "cpu": "cpu/light_parking_post",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 2048,
+      "textures": [
+        "texture/models/lamps/light_parking_post/0x73455735e17a374c",
+        "texture/models/lamps/light_parking_post/0x6a9ec2bb9b1d6b16",
+        "texture/models/lamps/light_parking_post/0xacb9847712d629da",
+        "texture/models/lamps/light_parking_post/0xd96c5f82508f6c1b"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/floors/imc_int_ground_panels_01",
+      "type": "rgdp",
+      "cpu": "cpu/imc_int_ground_panels_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/floors/imc_int_ground_panels_01/0x21735a5ce5fe3aa8",
+        "texture/world/floors/imc_int_ground_panels_01/0x35511d17583603b4",
+        "texture/world/floors/imc_int_ground_panels_01/0x3f8bd89e32aa5b1b",
+        "texture/world/floors/imc_int_ground_panels_01/0x6733f1a4bcc2604"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/world/metal/rebar",
+      "type": "rgdp",
+      "cpu": "cpu/rebar",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 256,
+      "height": 64,
+      "textures": [
+        "texture/models/world/metal/rebar/0x1e93b84d550b42be",
+        "texture/models/world/metal/rebar/0x32be6c1440e4e58c",
+        "texture/models/world/metal/rebar/0x3bc5636966708573",
+        "texture/models/world/metal/rebar/0x2acc9e54df3a0d4"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/rebar",
+      "type": "rgdp",
+      "cpu": "cpu/rebar",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 256,
+      "height": 64,
+      "textures": [
+        "texture/models/world/metal/rebar/0x1e93b84d550b42be",
+        "texture/models/world/metal/rebar/0x32be6c1440e4e58c",
+        "texture/models/world/metal/rebar/0x3bc5636966708573",
+        "texture/models/world/metal/rebar/0x2acc9e54df3a0d4"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/buildings/window_broken_glass",
+      "type": "rgdp",
+      "cpu": "cpu/window_broken_glass",
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 291113621946221180,
+      "width": 256,
+      "height": 256,
+      "textures": [
+        "texture/models/buildings/window_broken_glass/0x6896cd36cdcb2c03",
+        "texture/models/buildings/window_broken_glass/0x3ed1511230c7bad8",
+        "texture/models/buildings/window_broken_glass/0xc26aaaff2b114147",
+        "texture/models/buildings/window_broken_glass/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc",
+      "type": "rgdp",
+      "cpu": "cpu/mendoko_interior_trim_01_vc",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 1623025765778667453,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/mendoko/mendoko_interior_trim_01/0x102a9de6cb1dd779",
+        "texture/world/mendoko/mendoko_interior_trim_01/0x8b7f8f81eb23aede",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xcd9a513d62dc6da2",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xfa4d2c48a095afe3",
+        "",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xa4558310ad5e46ed"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/lamps/warning_light_orange_off",
+      "type": "rgdp",
+      "cpu": "cpu/warning_light_orange_off",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 1036679184475446233,
+      "width": 256,
+      "height": 256,
+      "textures": [
+        "texture/models/lamps/warning_light_orange_off/0xfcc75644a1ac4674",
+        "texture/models/lamps/warning_light_orange_off/0x928af4aed0c10088",
+        "texture/models/lamps/warning_light_orange_off/0xdc532e3e0ab455eb",
+        "texture/models/lamps/warning_light_orange_off/0x429f97d542f74d59",
+        "",
+        "texture/models/lamps/warning_light_orange_off/0x6a7c06454c13bf37"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/door/imc_double_door_128x256_01",
+      "type": "rgdp",
+      "cpu": "cpu/imc_double_door_128x256_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5083047720626252508,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/door/imc_double_door_128x256_01/0xf7024076fdf5b6a5",
+        "texture/models/door/imc_double_door_128x256_01/0x8dacb2065be9a295",
+        "texture/models/door/imc_double_door_128x256_01/0xd7c1dca2031725d8",
+        "texture/models/door/imc_double_door_128x256_01/0x3cda8207613a6220",
+        "texture/models/door/imc_double_door_128x256_01/0xacfa4ba6778b2fd5",
+        "texture/models/door/imc_double_door_128x256_01/0x64b6f0774b53a649"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/walls/construction_metal_form_walls_05",
+      "type": "rgdp",
+      "cpu": "cpu/construction_metal_form_walls_05",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/walls/construction_metal_form_walls_05/0x10466c3a18237908",
+        "texture/world/walls/construction_metal_form_walls_05/0x5b4d408e70c01c28",
+        "texture/world/walls/construction_metal_form_walls_05/0x6587fc15706b7735",
+        "texture/world/walls/construction_metal_form_walls_05/0x2c6f629164563e78",
+        "",
+        "texture/world/walls/construction_metal_form_walls_05/0xb7287ed7d0dc78f2"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/walls/construction_metal_form_walls_05",
+      "type": "rgdc",
+      "cpu": "cpu/construction_metal_form_walls_05",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6851367605747943523,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/walls/construction_metal_form_walls_05/0x10466c3a18237908",
+        "texture/world/walls/construction_metal_form_walls_05/0x5b4d408e70c01c28",
+        "texture/world/walls/construction_metal_form_walls_05/0x6587fc15706b7735",
+        "texture/world/walls/construction_metal_form_walls_05/0x2c6f629164563e78",
+        "",
+        "texture/world/walls/construction_metal_form_walls_05/0xb7287ed7d0dc78f2"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/walls/construction_metal_form_walls",
+      "type": "rgdc",
+      "cpu": "cpu/construction_metal_form_walls",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6851367605747943523,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/walls/construction_metal_form_walls/0x48095fecf1cc06a0",
+        "texture/world/walls/construction_metal_form_walls_05/0x5b4d408e70c01c28",
+        "texture/world/walls/construction_metal_form_walls_05/0x6587fc15706b7735",
+        "texture/world/walls/construction_metal_form_walls_05/0x2c6f629164563e78",
+        "",
+        "texture/world/walls/construction_metal_form_walls_05/0xb7287ed7d0dc78f2"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/boomtown/boomtown_solid_grate_01",
+      "type": "rgdc",
+      "cpu": "cpu/boomtown_solid_grate_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6851367605747943523,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/boomtown/boomtown_solid_grate_01/0x421b2e2fde5445bf",
+        "texture/world/boomtown/boomtown_solid_grate_01/0xd91290cb844b5be9",
+        "texture/world/boomtown/boomtown_solid_grate_01/0x240e8e8cbd957018",
+        "texture/world/boomtown/boomtown_solid_grate_01/0x87f36fc035314558",
+        "",
+        "texture/world/boomtown/boomtown_solid_grate_01/0xb103a262186d725c"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/mendoko/mendoko_interior_trim_01/mendoko_interior_trim_01_vc",
+      "type": "wldc",
+      "cpu": "cpu/mendoko_interior_trim_01_vc",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3134464214606249681,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/mendoko/mendoko_interior_trim_01/0x102a9de6cb1dd779",
+        "texture/world/mendoko/mendoko_interior_trim_01/0x8b7f8f81eb23aede",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xcd9a513d62dc6da2",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xfa4d2c48a095afe3",
+        "",
+        "texture/world/mendoko/mendoko_interior_trim_01/0xa4558310ad5e46ed"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/imc_base/stencil_white_blend_01",
+      "type": "wldc",
+      "cpu": "cpu/stencil_white_blend_01",
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 6437450574264513219,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/imc_base/stencil_white_blend_01/0xfffc33675984ffa3",
+        "texture/models/imc_base/stencil_white_blend_01/0x8c9647619e10e9a6",
+        "texture/models/imc_base/stencil_white_blend_01/0xc26aaaff2b114147",
+        "texture/models/imc_base/stencil_white_blend_01/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/signs/billboard_airbase_01",
+      "type": "wldc",
+      "cpu": "cpu/billboard_airbase_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/signs/billboard_airbase_01/0xf69426fde90e8cb2",
+        "texture/world/signs/billboard_airbase_01/0xcc34c8c04c5fbc21",
+        "texture/world/signs/billboard_airbase_01/0x1996f479454a09ba",
+        "texture/world/signs/billboard_airbase_01/0x937dce031ad23b3a"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/ola/ola_sewer_grate_01_opaque",
+      "type": "wldc",
+      "cpu": "cpu/billboard_airbase_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 11643236358696721833,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x68d14244043231db",
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x3ebed512c855e348",
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x749338b055563ae9",
+        "texture/world/ola/ola_sewer_grate_01_opaque/0x654cb62293993e7"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/cement_ruined_rubble_01",
+      "type": "wldc",
+      "cpu": "cpu/cement_ruined_rubble_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/concrete/cement_ruined_rubble_01/0xbe8ffe881325114e",
+        "texture/world/concrete/cement_ruined_rubble_01/0x553a70174be1f998",
+        "texture/world/concrete/cement_ruined_rubble_01/0xc26aaaff2b114147",
+        "texture/world/concrete/cement_ruined_rubble_01/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_floor_cracks03",
+      "type": "wldc",
+      "cpu": "cpu/concrete_floor_cracks03",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_floor_cracks03/0xaf5c6681d58dc4e5",
+        "texture/world/concrete/concrete_floor_cracks03/0x47d47e5bf47d739d",
+        "texture/world/concrete/cement_ruined_rubble_01/0xc26aaaff2b114147",
+        "texture/world/concrete/cement_ruined_rubble_01/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_cracked_01",
+      "type": "wldc",
+      "cpu": "cpu/concrete_cracked_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_cracked_01/0x28419ebc57f3fd98",
+        "texture/world/concrete/concrete_cracked_01/0xbf85f264ce62a0b2",
+        "texture/world/concrete/cement_ruined_rubble_01/0xc26aaaff2b114147",
+        "texture/world/concrete/cement_ruined_rubble_01/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/signs/sign_nostep_black",
+      "type": "wldc",
+      "cpu": "cpu/sign_nostep_black",
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 15242997059689056910,
+      "width": 256,
+      "height": 32,
+      "textures": [
+        "texture/world/signs/sign_nostep_black/0x7cf05a2b05bf2ebc",
+        "texture/world/signs/sign_nostep_black/0x8c9647619e10e9a6",
+        "texture/world/concrete/cement_ruined_rubble_01/0xc26aaaff2b114147",
+        "texture/world/concrete/cement_ruined_rubble_01/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_fillerDamage_01",
+      "type": "rgdp",
+      "cpu": "cpu/concrete_fillerDamage_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_fillerDamage_01/0x44f66016a79f0376",
+        "texture/world/concrete/concrete_fillerDamage_01/0x3c4fcb9c2fa387b8",
+        "texture/world/concrete/concrete_fillerDamage_01/0x7e6a8d57d8faf604",
+        "texture/world/concrete/concrete_fillerDamage_01/0xab1d68630a4c8c63"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_fillerDamage_01",
+      "type": "wldc",
+      "cpu": "cpu/concrete_fillerDamage_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_fillerDamage_01/0x44f66016a79f0376",
+        "texture/world/concrete/concrete_fillerDamage_01/0x3c4fcb9c2fa387b8",
+        "texture/world/concrete/concrete_fillerDamage_01/0x7e6a8d57d8faf604",
+        "texture/world/concrete/concrete_fillerDamage_01/0xab1d68630a4c8c63"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/ola/stamped_metal_large",
+      "type": "wldc",
+      "cpu": "cpu/stamped_metal_large",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/ola/stamped_metal_large/0x85d8a1e15db70650",
+        "texture/world/ola/stamped_metal_large/0x991c8282ab0c6c50",
+        "texture/world/ola/stamped_metal_large/0xa3573e09b71f733f",
+        "texture/world/ola/stamped_metal_large/0x6a3ea4859ea28ea0"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/cement_stripes_decals_darktint",
+      "type": "wldc",
+      "cpu": "cpu/cement_stripes_decals_darktint",
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 6437450574264513219,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/world/decal/cement_stripes_decals_darktint/0x3c52e355929c75a7",
+        "texture/world/decal/cement_stripes_decals_darktint/0x4f49d2ea72b7adc7",
+        "texture/world/decal/cement_stripes_decals_darktint/0x59848e71979a0c7a",
+        "texture/world/decal/cement_stripes_decals_darktint/0x206bf4ed664dd017"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/ola/ola_sewer_grate_rusty_01",
+      "type": "wldc",
+      "cpu": "cpu/ola_sewer_grate_rusty_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 11785806169016009283,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/ola/ola_sewer_grate_rusty_01/0x2677d4751eb510dc",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0xbe091929c457866c",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0x73770a055752f97",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0x6c501605c00017c1",
+        "",
+        "",
+        "",
+        "texture/world/ola/ola_sewer_grate_rusty_01/0xb511e216a0a61b4a"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/atmosphere/olympus_clouds_thick_depth_blend_no_animation",
+      "type": "rgdc",
+      "cpu": "cpu/olympus_clouds_thick_depth_blend_no_animation",
+      "drawflags": 2,
+      "unkflags": 9,
+      "shaderset": 8528285707078792019,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/atmosphere/olympus_clouds_thick_depth_blend_no_animation/0x22ac596cce41a8b2",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/atmosphere/olympus_clouds_thick_depth_blend_no_animation/0x89ab6c16ba7129db"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/atmosphere/atmosphere_1500_fade_thick_depth",
+      "type": "rgdp",
+      "cpu": "cpu/atmosphere_1500_fade_thick_depth",
+      "visflags": 17,
+      "drawflags": 6,
+      "unkflags": 9,
+      "shaderset": 9341101872374959401,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/atmosphere/atmosphere_1500_fade_thick_depth/0xe981eb020020ea77",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/atmosphere/atmosphere_1500_fade_thick_depth",
+      "type": "rgdp",
+      "cpu": "cpu/atmosphere_1500_fade_thick_depth",
+      "visflags": 17,
+      "drawflags": 6,
+      "unkflags": 9,
+      "shaderset": 9341101872374959401,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/atmosphere/atmosphere_1500_fade_thick_depth/0xe981eb020020ea77",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/atmosphere/atmosphere_1000_fade_thick_depth_scroll",
+      "type": "rgdp",
+      "cpu": "cpu/atmosphere_1000_fade_thick_depth_scroll",
+      "visflags": 17,
+      "drawflags": 6,
+      "unkflags": 9,
+      "shaderset": 9341101872374959401,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/atmosphere/atmosphere_1000_fade_thick_depth_scroll/0xe76367d5659222f3",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/sand/sand_fall_01",
+      "type": "wldc",
+      "cpu": "cpu/sand_fall_01",
+      "visflags": 17,
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 6407741522428374266,
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/world/sand/sand_fall_01/0xd9581fb1a68ab41b",
+        "texture/world/sand/sand_fall_01/0x42f58cccc5fbd6be",
+        "texture/world/sand/sand_fall_01/0x13662f0be3f9b1f1",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/sand/sand_fall_01/0x1bcf24241bb03c98"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/sand/sand_fall_01",
+      "type": "rgdp",
+      "cpu": "cpu/sand_fall_01",
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 1109147244374193749,
+      "width": 2048,
+      "height": 1024,
+      "textures": [
+        "texture/world/sand/sand_fall_01/0xd9581fb1a68ab41b",
+        "texture/world/sand/sand_fall_01/0x42f58cccc5fbd6be",
+        "texture/world/sand/sand_fall_01/0x13662f0be3f9b1f1",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/sand/sand_fall_01/0x1bcf24241bb03c98"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/cement_stripes_decals_vert",
+      "type": "wldc",
+      "cpu": "cpu/cement_stripes_decals_vert",
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 4337875431869572491,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/cement_stripes_decals_vert/0x4c09b56abdb0753d",
+        "texture/world/decal/cement_stripes_decals_vert/0x4496e5225ddb100f",
+        "texture/world/decal/cement_stripes_decals_vert/0x86b1a6ddd593ced3",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/decal/cement_stripes_decals_vert/0x66438efa5bcd5190",
+        "texture/world/decal/cement_stripes_decals_vert/0x1f893703d0029e52",
+        "texture/world/decal/cement_stripes_decals_vert/0xaab4ba6d963994c1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/timeshift/solid_grate_dirty_wet_01/solid_grate_dirty_wet_01",
+      "type": "rgdc",
+      "cpu": "cpu/solid_grate_dirty_wet_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 14923542832149059605,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0xbae7cfa305ed1e0e",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0xcddebf38240eb198",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0xd8197abf3021b887",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0x9f00e13b17a4d3e8",
+        "",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0x2a06ee8e0a349406",
+        "",
+        "",
+        "",
+        "texture/world/timeshift/solid_grate_dirty_wet_01/0x9d6c62caa99ff0d8"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/beacon_industrial_floor_01/beacon_industrial_floor_01",
+      "type": "rgdc",
+      "cpu": "cpu/beacon_industrial_floor_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6851367605747943523,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/beacon_industrial_floor_01/0x93aa1fae1d644845",
+        "texture/world/beacon/beacon_industrial_floor_01/0x2aa1824a2698bd7f",
+        "texture/world/beacon/beacon_industrial_floor_01/0x7469bbd9608c12e2",
+        "texture/world/beacon/beacon_industrial_floor_01/0xd982613ebeaf4f2a",
+        "",
+        "texture/world/beacon/beacon_industrial_floor_01/0x15ecfaec197eb17"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_04_yellow_orange",
+      "type": "rgdp",
+      "cpu": "cpu/stamped_metal_large_painted_04_yellow_orange",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xe0d2002c581ebbae",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_04_yellow_orange",
+      "type": "rgdc",
+      "cpu": "cpu/stamped_metal_large_painted_04_yellow_orange",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6851367605747943523,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xe0d2002c581ebbae",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_04_yellow_orange/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/beacon_crane_caution_stripe_decals",
+      "type": "rgdc",
+      "cpu": "cpu/beacon_crane_caution_stripe_decals",
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 17202384333034818938,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0xf3658ea700b1d4cb",
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0xe8f153e1aeeb3e81",
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0x2b0c159d5842accd",
+        "texture/world/beacon/beacon_crane_caution_stripe_decals/0x57bef0a87d2c974a"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/walls/building_walls_metal_03",
+      "type": "rgdc",
+      "cpu": "cpu/building_walls_metal_03",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 2790815524376709966,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/walls/building_walls_metal_03/0x7e0f2512ea830606",
+        "texture/world/walls/building_walls_metal_03/0x75689098a42639d0",
+        "texture/world/walls/building_walls_metal_03/0xb78352541bdef894",
+        "texture/world/walls/building_walls_metal_03/0xe4362d5f7ecf3e7b"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/beacon_building_overlay_decal_02",
+      "type": "rgdp",
+      "cpu": "cpu/beacon_building_overlay_decal_02",
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 16358645698637217796,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/beacon/beacon_building_overlay_decal_02/0x858b48e9ee5493f1",
+        "texture/world/beacon/beacon_building_overlay_decal_02/0x8c9647619e10e9a6",
+        "texture/world/beacon/beacon_building_overlay_decal_02/0xa2bcf405f3522ac4",
+        "texture/world/beacon/beacon_building_overlay_decal_02/0x69a45a81c205ee61"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dirt/mud_to_dirt_01_bm",
+      "type": "rgdp",
+      "cpu": "cpu/mud_to_dirt_01_bm",
+      "visflags": "colpass",
+      "drawflags": "wireframe",
+      "unkflags": 4,
+      "shaderset": 17097836957365641843,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/dirt/mud_to_dirt_01_bm/0xda30c750584396f",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xe1c2f8f908ac2814",
+        "texture/world/dirt/mud_to_dirt_01_bm/0x17975c9695ac7fb5",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xaa8cb37a68e6977f",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/dirt/mud_to_dirt_01_bm/0x90fa96ad570d1151",
+        "texture/world/dirt/mud_to_dirt_01_bm/0x8987c664f737ac23",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xf58ef388a6494504",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xc87f825ca02e3316",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xde0de9c1f3174a05",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xe848a548f8f67b03",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xaf300bc5121845ec",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xbed0726b3fca8041",
+        "texture/world/dirt/mud_to_dirt_01_bm/0xd348173eb1ada8b3"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm",
+      "type": "rgdp",
+      "cpu": "cpu/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x6cc351d1e45397c8",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x417d206ef38e91b5",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x7751840c74273d74",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xa46daf0222a5198",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x3dbdbfcd02e8b67b",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x594956eba07c2be7",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x293ce884e2a7ce90",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x54af38e5cf86aaa9",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xb5d5b0e26547be47",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xc8cca0777d357be0",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xd3075bfe8314acde",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x27c8f04d49ceceaa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x89c8039d324c8213",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x9cbef332189b9024"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm",
+      "type": "wldc",
+      "cpu": "cpu/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 10712797481634029404,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x6cc351d1e45397c8",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x417d206ef38e91b5",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x7751840c74273d74",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xa46daf0222a5198",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x3dbdbfcd02e8b67b",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x594956eba07c2be7",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x293ce884e2a7ce90",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x54af38e5cf86aaa9",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xb5d5b0e26547be47",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xc8cca0777d357be0",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0xd3075bfe8314acde",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x27c8f04d49ceceaa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x89c8039d324c8213",
+        "texture/models/rocks/rock_white_chalk_mod_02_to_sand_desert_02_wld_bm/0x9cbef332189b9024"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dirt/road_tracks_muddy_02_blend_2_trans",
+      "type": "wldc",
+      "cpu": "cpu/road_tracks_muddy_02_blend_2_trans",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 1982082498053763604,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x10f4c0795b9fb2d7",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x39d5df54770ebb",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0xf908a2bb183522c9",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x25bb7dc66ebdbcce",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/dirt/road_tracks_muddy_02_blend_2_trans/0x576582d43acb2739"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/concrete/concrete_wall_dirty_02_wet_bm",
+      "type": "wldc",
+      "cpu": "cpu/concrete_wall_dirty_02_wet_bm",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 4983496056377678862,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0xf42fe3d666b08e13",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x90c9b5777efe1c36",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x5cc8788b181fd9d1",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x10bc5c6e4b13b3a9",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x5a7f603a7f6a1ab5",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x7c9f01b0be8f52ff",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x90c9b5777efe1c36",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x99d0accc9e55e62c",
+        "texture/world/concrete/concrete_wall_dirty_02_wet_bm/0x60b81348797155ab"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/decal_drips_wall_v_alpha",
+      "type": "wldc",
+      "cpu": "cpu/decal_drips_wall_v_alpha",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/decal_drips_wall_v_alpha/0x91e062a522eed811",
+        "texture/world/decal/decal_drips_wall_v_alpha/0xfe882eac62dcd8ac",
+        "texture/world/decal/decal_drips_wall_v_alpha/0x345c9249efdd304d",
+        "texture/world/decal/decal_drips_wall_v_alpha/0xc704f82130a61691"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/rubble/rubble_standard02_wld_vtx",
+      "type": "wldc",
+      "cpu": "cpu/rubble_standard02_wld_vtx",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 4337875431869572491,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x981308a4ca4e7326",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xc1bff6a6b69b6422",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xe045c606cee3df2c"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/rubble/rubble_standard02_wld_vtx",
+      "type": "rgdp",
+      "cpu": "cpu/rubble_standard02_wld_vtx",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 13230092666630006677,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xb7536c798726a889",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x4e97c021bf8ef039",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x981308a4ca4e7326",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0x1f893703d0029e52",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xc1bff6a6b69b6422",
+        "texture/world/rubble/rubble_standard02_wld_vtx/0xe045c606cee3df2c"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "TOOLS/TOOLSEXPOSUREVOLUME",
+      "type": "wldc",
+      "visflags": 17,
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 6437450574264513219,
+      "width": 512,
+      "height": 512,
+      "textures": ["", "", "", ""]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/charge_decal_sign_01",
+      "type": "rgdp",
+      "cpu": "cpu/charge_decal_sign_01",
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 885565616837051236,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/charge_decal_sign_01/0x362dfab756e2bc7",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/charge_decal_sign_01",
+      "type": "sknp",
+      "cpu": "cpu/charge_decal_sign_01",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 3234520069253039026,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/charge_decal_sign_01/0x362dfab756e2bc7",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/imc_logo_large",
+      "type": "sknp",
+      "cpu": "cpu/imc_logo_large",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 3234520069253039026,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/imc_logo_large/0xd5f5e93ee7e84481",
+        "texture/world/decal/imc_logo_large/0x8c9647619e10e9a6",
+        "texture/world/decal/imc_logo_large/0xc26aaaff2b114147",
+        "texture/world/decal/imc_logo_large/0x556001e2ebafd73e",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/imc_logo_large",
+      "type": "wldc",
+      "cpu": "cpu/imc_logo_large",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 15242997059689056910,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/imc_logo_large/0xd5f5e93ee7e84481",
+        "texture/world/decal/imc_logo_large/0x8c9647619e10e9a6",
+        "texture/world/decal/imc_logo_large/0xc26aaaff2b114147",
+        "texture/world/decal/imc_logo_large/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/tarps/tarp_green_01",
+      "type": "wldc",
+      "cpu": "cpu/tarp_green_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/world/tarps/tarp_green_01/0xb50d1ddc3d3acb9b",
+        "texture/world/tarps/tarp_white_01/0x20e14644cd46b158",
+        "texture/world/tarps/tarp_white_01/0x6a0f9dbb015ad164",
+        "texture/world/tarps/tarp_white_01/0xcf28432065b1e39d"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/tarps/tarp_white_01",
+      "type": "wldc",
+      "cpu": "cpu/tarp_white_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5408606878269739158,
+      "width": 1024,
+      "height": 512,
+      "textures": [
+        "texture/world/tarps/tarp_white_01/0xaf6edfe754f3546f",
+        "texture/world/tarps/tarp_white_01/0x20e14644cd46b158",
+        "texture/world/tarps/tarp_white_01/0x6a0f9dbb015ad164",
+        "texture/world/tarps/tarp_white_01/0xcf28432065b1e39d"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dirt/sand_training_ground_02_alpha",
+      "type": "rgdc",
+      "cpu": "cpu/sand_training_ground_02_alpha",
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 4325744788166796293,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/dirt/sand_training_ground_02_alpha/0x5e562e3163ac477c",
+        "texture/world/dirt/sand_training_ground_02_alpha/0x71ccf134fe2b2943",
+        "texture/world/dirt/sand_training_ground_02_alpha/0xc26aaaff2b114147",
+        "texture/world/dirt/sand_training_ground_02_alpha/0x556001e2ebafd73e"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/slum_grime_decal_01_bt",
+      "type": "sknp",
+      "cpu": "cpu/slum_grime_decal_01_bt",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 8900632333082111100,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/slum_grime_decal_01_bt/0x5003a780b9b4bed7",
+        "texture/world/decal/slum_grime_decal_01_bt/0x46c330ed4e758f95",
+        "texture/world/decal/slum_grime_decal_01_bt/0x88ddf2a8c62e4e59",
+        "texture/world/decal/slum_grime_decal_01_bt/0xb590cdb3f77fe4b8"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/weapons_r5/misc_ash_head/s5_object_body",
+      "type": "sknp",
+      "cpu": "cpu/s5_object_body",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0xbbc5c3e031b7c9be",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x530a17885db8658c",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x9c85600b4fa890b5",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x19e0570a164211b",
+        "",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_body/0x28e091c79e6d87b1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/weapons_r5/misc_ash_head/s5_object_hood",
+      "type": "sknp",
+      "cpu": "cpu/s5_object_hood",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x268c8ac59f37308b",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0xbc9d1a3c22b6c0bb",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x61862bed06cba89",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x6c64cc560ee387e8",
+        "",
+        "texture/models/weapons_r5/misc_ash_head/s5_object_hood/0x94413ac62a9b7b99"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/weapons_r5/misc_ash_head/ash_head_1",
+      "type": "sknp",
+      "cpu": "cpu/ash_head_1",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x6fd3b319ce79e2fa",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x84bcaf3c8328e0c",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x51c71376ba22b935",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0xb5abf4aa3e263a57",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0x26ff827b2e96c332",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_1/0xdebc274bfc2b63b5"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/weapons_r5/misc_ash_head/ash_head_2",
+      "type": "sknp",
+      "cpu": "cpu/ash_head_2",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x82e91004e5a886d0",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x1b6127def83089a6",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x64dc7061ea20b4cf",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0xc8c151955554de2d",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0x38e11b345f3e0000",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_2/0xf09dc0055e71500b"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/weapons_r5/misc_ash_head/ash_head_glass",
+      "type": "sknp",
+      "cpu": "cpu/ash_head_glass",
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 8900632333082111100,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0x63d83ee02adf262d",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xfb1c92887c16c5a1",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0x4497db0b429c1733",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xa9b080708e23d1a8",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0x1a6a2c28b6bb8096",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xd226d0f99d1f78dd",
+        "",
+        "texture/models/weapons_r5/misc_ash_head/ash_head_glass/0xcad7518a04732583"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/slum_grime_decal_01_bt",
+      "type": "rgdc",
+      "visflags": "colpass",
+      "drawflags": "wireframe",
+      "unkflags": 5,
+      "shaderset": 14383331741629310846,
+      "width": 512,
+      "height": 512,
+      "textures": ["", "", "", ""]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dirt/homestead_mud_01_blend2trans",
+      "type": "rgdc",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 14383331741629310846,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/decal/slum_grime_decal_01_bt/0x5003a780b9b4bed7",
+        "texture/world/decal/slum_grime_decal_01_bt/0x46c330ed4e758f95",
+        "texture/world/decal/slum_grime_decal_01_bt/0x88ddf2a8c62e4e59",
+        "texture/world/decal/slum_grime_decal_01_bt/0xb590cdb3f77fe4b8"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/sand/sand_desert_erosion_01_bm_transparent",
+      "type": "rgdc",
+      "cpu": "cpu/sand_desert_erosion_01_bm_transparent",
+      "visflags": 17,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 14383331741629310846,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x9fe7b1b001d85bc",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x1ca879a35a2f3838",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x26e3352a66423f27",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0xb379ca154658e383",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/sand/sand_desert_erosion_01_bm_transparent/0x700106725afb0741"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld",
+      "type": "rgdc",
+      "cpu": "cpu/canyonlands_crater_mud_02_to_sand_desert_02_wld",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 14383331741629310846,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xf613997b09119f4e",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xcacd6817ff7d4177",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x96a0784c052aad7",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x28853cb26685df70",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x45621726db88e6fd",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xa09034cb4c123f24",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x5287d8cce6aa2279",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xb5d5b0e26547be47",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xc8cca0777d357be0",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0xd3075bfe8314acde",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x27c8f04d49ceceaa",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x89c8039d324c8213",
+        "texture/world/mud/canyonlands_crater_mud_02_to_sand_desert_02_wld/0x9cbef332189b9024"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/props/charge_pylon/charge_pylon_cell_01",
+      "type": "rgdp",
+      "cpu": "cpu/charge_pylon_cell_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 18323666259818921557,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x6c04c255a05b714a",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x2fc24f18458e2de",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x4cc45e80cab3e423",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xb1dd03e61c6f7489",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x21fccd8519f0ea7a",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xd9b972560054e2c1",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0x6fce90c267d3d6ec",
+        "",
+        "",
+        "",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xd43de1961b1cb14d",
+        "texture/models/props/charge_pylon/charge_pylon_cell_01/0xa716488b638d3f3f"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/decal/text_stencil_white_imc",
+      "type": "sknp",
+      "cpu": "cpu/text_stencil_white_imc",
+      "flags": 1901312,
+      "flags2": 1442840611,
+      "drawflags": 16,
+      "unkflags": 5,
+      "shaderset": 11588930551130730708,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        13746175088352009937,
+        10130362896405817766,
+        14009197603805282631,
+        6151919165116503870
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/beacon/beacon_cable_01/beacon_cable_01",
+      "type": "rgdc",
+      "cpu": "cpu/beacon_cable_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6851367605747943523,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/beacon/beacon_cable_01/0xfcf9b73c1f070e8",
+        "texture/models/beacon/beacon_cable_01/0x2192c6d6e0bb45a6",
+        "texture/models/beacon/beacon_cable_01/0x2d01468f88e7ac51",
+        "texture/models/beacon/beacon_cable_01/0xf3e8ad0bbad8cefe",
+        "",
+        "texture/models/beacon/beacon_cable_01/0x7d211413d39d7490"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03",
+      "type": "rgdp",
+      "cpu": "cpu/stamped_metal_large_painted_03",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8478937216910593768,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03",
+      "type": "rgdc",
+      "cpu": "cpu/stamped_metal_large_painted_03",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 6851367605747943523,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_03/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/beacon/beacon_cable_trim_01/beacon_cable_trim_01",
+      "type": "sknc",
+      "cpu": "cpu/beacon_cable_trim_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 10375202460403619405,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/beacon/beacon_cable_trim_01/0x19555cf439c027d0",
+        "texture/models/beacon/beacon_cable_trim_01/0x10aec87a0c32b35e",
+        "texture/models/beacon/beacon_cable_trim_01/0x52c98a3583eb7222",
+        "texture/models/beacon/beacon_cable_trim_01/0x7f7c6540b53d0881",
+        "",
+        "texture/models/beacon/beacon_cable_trim_01/0x95c3b849a2171ec"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/beacon/beacon_cable_trim_01/beacon_cable_trim_01",
+      "type": "sknp",
+      "cpu": "cpu/beacon_cable_trim_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/beacon/beacon_cable_trim_01/0x19555cf439c027d0",
+        "texture/models/beacon/beacon_cable_trim_01/0x10aec87a0c32b35e",
+        "texture/models/beacon/beacon_cable_trim_01/0x52c98a3583eb7222",
+        "texture/models/beacon/beacon_cable_trim_01/0x7f7c6540b53d0881",
+        "",
+        "texture/models/beacon/beacon_cable_trim_01/0x95c3b849a2171ec"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/props/crafting_siphon/crafting_siphon_energy",
+      "type": "sknp",
+      "cpu": "cpu/crafting_siphon_energy",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 107799654698755125,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0xd9830601ec535c43",
+        "",
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0x12f7334323e324c2",
+        "",
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0x97a9ff4d9dc964e6",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "texture/models/props/crafting_siphon/crafting_siphon_energy/0xc836632640032a52"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/props/crafting_siphon/crafting_siphon_glass",
+      "type": "sknp",
+      "cpu": "cpu/crafting_siphon_glass",
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 11588930551130730708,
+      "width": 512,
+      "height": 512,
+      "textures": [
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0xa16a434457081682",
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0x3814b4d38fc4fecc",
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0x8229df6f7b2cb36a",
+        "texture/models/props/crafting_siphon/crafting_siphon_glass/0xe74284d4d31c19c1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/props/crafting_siphon/crafting_siphon_main",
+      "type": "sknp",
+      "cpu": "cpu/crafting_siphon_glass",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 2134705335625393957,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x74c36ab21cd47240",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x882dc3d9945f434e",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x91f515ce156a5d31",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x5a83aa0e74b0a297",
+        "",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0xe3e2899d084c9074",
+        "texture/models/props/crafting_siphon/crafting_siphon_main/0x437024f8708d19b"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/props/crafting_replicator/crafting_replicator",
+      "type": "sknp",
+      "cpu": "cpu/crafting_replicator",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8403185417549714111,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/models/props/crafting_replicator/crafting_replicator/0x334e580144b04e77",
+        "texture/models/props/crafting_replicator/crafting_replicator/0x6877160065d896d",
+        "texture/models/props/crafting_replicator/crafting_replicator/0x3c5bd4fd86f6352c",
+        "texture/models/props/crafting_replicator/crafting_replicator/0xd037ff06a1ded696",
+        "texture/models/props/crafting_replicator/crafting_replicator/0xadaf3d48c10ea17f",
+        "texture/models/props/crafting_replicator/crafting_replicator/0x495b708d6b370fb",
+        "texture/models/props/crafting_replicator/crafting_replicator/0xe0cd2d0062bc330a"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/stasis/stasis_lab_trim_02/stasis_lab_trim_02",
+      "type": "sknp",
+      "cpu": "cpu/stasis_lab_trim_02",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/stasis/stasis_lab_trim_02/0xdd870bda72bd37e3",
+        "texture/world/stasis/stasis_lab_trim_02/0x734aaa44322ce705",
+        "texture/world/stasis/stasis_lab_trim_02/0xbd12e3d3aa2697d2",
+        "texture/world/stasis/stasis_lab_trim_02/0x235f4d6ad601e35e",
+        "",
+        "texture/world/stasis/stasis_lab_trim_02/0x4bd59df3e4fd8a93"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/stasis/stasis_trim_02/stasis_trim_02",
+      "type": "sknc",
+      "cpu": "cpu/stasis_trim_02",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 10375202460403619405,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stasis/stasis_trim_02/0xef10616031cf5b36",
+        "texture/world/stasis/stasis_trim_02/0x8654b5088f6ea68c",
+        "texture/world/stasis/stasis_trim_02/0xcfcffd8b5c27ce0f",
+        "texture/world/stasis/stasis_trim_02/0x34e8a2f0ade35e75",
+        "",
+        "texture/world/stasis/stasis_trim_02/0x5d5ef379b6ab2fb9"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/stasis/stasis_trim_02/stasis_trim_02",
+      "type": "sknp",
+      "cpu": "cpu/stasis_trim_02",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/stasis/stasis_trim_02/0xef10616031cf5b36",
+        "texture/world/stasis/stasis_trim_02/0x8654b5088f6ea68c",
+        "texture/world/stasis/stasis_trim_02/0xcfcffd8b5c27ce0f",
+        "texture/world/stasis/stasis_trim_02/0x34e8a2f0ade35e75",
+        "",
+        "texture/world/stasis/stasis_trim_02/0x5d5ef379b6ab2fb9"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/lamps/warning_light_orange",
+      "type": "sknp",
+      "cpu": "cpu/warning_light_orange",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 7269319351430044159,
+      "width": 256,
+      "height": 256,
+      "textures": [
+        "texture/models/lamps/warning_light_orange/0xfcc75644a1ac4674",
+        "texture/models/lamps/warning_light_orange/0x928af4aed0c10088",
+        "texture/models/lamps/warning_light_orange/0xdc532e3e0ab455eb",
+        "texture/models/lamps/warning_light_orange/0x564d2be59c117999",
+        "texture/models/lamps/warning_light_orange/0xb2bf61741b41bfa4"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/timeshift/timeshift_metal_trim_01/timeshift_metal_trim_01",
+      "type": "sknp",
+      "cpu": "cpu/timeshift_metal_trim_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/timeshift/timeshift_metal_trim_01/0x2d213e06acc985e1",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x23e0c77373290627",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x65fb892eeae1c4eb",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x92ae643a1c335b4a",
+        "",
+        "texture/world/timeshift/timeshift_metal_trim_01/0x93ae7b337b9c7d8a"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/trim_metal_01",
+      "type": "sknp",
+      "cpu": "cpu/trim_metal_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8213833473093334948,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/metal/trim_metal_01/0x1623899cb30501d2",
+        "texture/world/metal/trim_metal_01/0x29676a3e382ced4b",
+        "texture/world/metal/trim_metal_01/0x326e61935784b741",
+        "texture/world/metal/trim_metal_01/0xf955c80f26387ade"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03_vert_color",
+      "type": "sknc",
+      "cpu": "cpu/stamped_metal_large_painted_03_vert_color",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 10375202460403619405,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03_vert_color",
+      "type": "sknp",
+      "cpu": "cpu/stamped_metal_large_painted_03_vert_color",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 5939690809846087075,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xa86b168d1faf2041",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_03_vert_color/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/metal/imc_painted_metal_01",
+      "type": "sknp",
+      "cpu": "cpu/imc_painted_metal_01",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 14263283356322739141,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/metal/imc_painted_metal_01/0x9a268a444b2ca4a7",
+        "texture/world/metal/imc_painted_metal_01/0x6ee058e128c8ef0c",
+        "texture/world/metal/imc_painted_metal_01/0xa4b4bc7eb5c946ad",
+        "texture/world/metal/imc_painted_metal_01/0x37aa1362703406b3"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "models/IMC_base/holo_projector_large_imc",
+      "type": "rgdp",
+      "cpu": "cpu/holo_projector_large_imc",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 3918825562514114522,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/models/IMC_base/holo_projector_large_imc/0x399dd43b3f7d2f7a",
+        "texture/models/IMC_base/holo_projector_large_imc/0xc10ccf4e10ca06dd",
+        "texture/models/IMC_base/holo_projector_large_imc/0x43df15693cdfa3a0",
+        "texture/models/IMC_base/holo_projector_large_imc/0xd7215d5964849186"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03_red",
+      "type": "sknp",
+      "cpu": "cpu/stamped_metal_large_painted_03_red",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x8bf264967b539e73",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/beacon/stamped_metal_large_painted_03_yellow_a",
+      "type": "sknp",
+      "cpu": "cpu/stamped_metal_large_painted_03_yellow_a",
+      "drawflags": 6,
+      "unkflags": 4,
+      "shaderset": 8900632333082111100,
+      "width": 2048,
+      "height": 2048,
+      "textures": [
+        "texture/world/beacon/stamped_metal_large_painted_03_yellow_a/0xea5f30ac667eb280",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x4e643713648bd16f",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x907ef8cf0de33fbb",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0xbd31d3da19fdd274",
+        "",
+        "texture/world/beacon/stamped_metal_large_painted_03_red/0x41ac047ae32a29d1"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dev/dev_green_light",
+      "type": "sknp",
+      "cpu": "cpu/dev_green_light",
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 7269319351430044159,
+      "width": 64,
+      "height": 64,
+      "textures": [
+        "texture/world/dev/dev_green_light/0x3b44dd1e08e03d2e",
+        "texture/defaults/0xbc296807dc655e89",
+        "texture/defaults/0xc965eacb0f51c19b",
+        "texture/defaults/0x8d33339818385289",
+        "texture/world/dev/dev_green_light/0x3f29faad7febb4ed"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/dev/dev_green_light",
+      "type": "wldc",
+      "cpu": "cpu/dev_green_light",
+      "drawflags": 16,
+      "unkflags": 4,
+      "shaderset": 14470187484596450490,
+      "width": 64,
+      "height": 64,
+      "textures": [
+        "texture/world/dev/dev_green_light/0x3b44dd1e08e03d2e",
+        "texture/defaults/0xbc296807dc655e89",
+        "texture/defaults/0xc965eacb0f51c19b",
+        "texture/defaults/0x8d33339818385289",
+        "texture/world/dev/dev_green_light/0x3f29faad7febb4ed"
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/atmosphere/atmosphere_500_fade_thick_depth",
+      "type": "sknc",
+      "cpu": "cpu/atmosphere_500_fade_thick_depth",
+      "drawflags": 6,
+      "unkflags": 9,
+      "shaderset": 10375202460403619405,
+      "width": 64,
+      "height": 64,
+      "textures": [
+        "texture/atmosphere/atmosphere_500_fade_thick_depth/0xe981eb020020ea77",
+        "texture/defaults/0xbc296807dc655e89",
+        "texture/defaults/0xc965eacb0f51c19b",
+        "texture/defaults/0x8d33339818385289",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "$type": "matl",
+      "path": "world/windows/glass_window_bulletproof01_green",
+      "type": "sknp",
+      "cpu": "cpu/glass_window_bulletproof01_green",
+      "drawflags": 6,
+      "unkflags": 5,
+      "shaderset": 7269319351430044159,
+      "width": 1024,
+      "height": 1024,
+      "textures": [
+        "texture/world/windows/glass_window_bulletproof01_green/0xfd26f684fb78a8eb",
+        "texture/world/windows/glass_window_bulletproof01_green/0x984e508dc2f973df",
+        "texture/world/windows/glass_window_bulletproof01_green/0x681648db7606962",
+        "texture/world/windows/glass_window_bulletproof01_green/0x9976bb7165637d86",
+        "",
+        "",
+        "",
+        "texture/world/windows/glass_window_bulletproof01_green/0x1c540643152f0dcc"
+      ]
+    },
+    {
+      "$type": "aseqlist",
+      "animseqs": [
+        "animseq/props/quest_s05/object/prop_quest_se05.rseq",
+        "animseq/props/quest_s05/object_body/obj_body_quest_se05.rseq",
+        "animseq/props/quest_s05/object_body/obj_body_quest_se05_idle.rseq"
+      ]
+    },
+    {
+      "$type": "arig",
+      "path": "animrig/props/crypto_satellite_dish/crypto_satellite_dish.rrig",
+      "animseqs": [
+        "animseq/props/crypto_satellite_dish/crypto_satellite_dish/crypto_satellite_blend.rseq",
+        "animseq/props/crypto_satellite_dish/crypto_satellite_dish/crypto_satellite_dish_activate.rseq",
+        "animseq/props/crypto_satellite_dish/crypto_satellite_dish/crypto_satellite_dish_blendmatrix.rseq",
+        "animseq/props/crypto_satellite_dish/crypto_satellite_dish/crypto_satellite_dish_idle.rseq"
+      ]
+    },
+    {
+      "$type": "arig",
+      "path": "animrig/props/bunker_hatch/bunker_hatch_scale_down.rrig",
+      "animseqs": [
+        "animseq_derived/props/bunker_hatch/bunker_hatch_scale_down/bunker_hatch_close.rseq",
+        "animseq_derived/props/bunker_hatch/bunker_hatch_scale_down/bunker_hatch_close_idle.rseq",
+        "animseq_derived/props/bunker_hatch/bunker_hatch_scale_down/bunker_hatch_open.rseq",
+        "animseq_derived/props/bunker_hatch/bunker_hatch_scale_down/bunker_hatch_open_idle.rseq"
+      ]
+    },
+    {
+      "$type": "arig",
+      "path": "animrig/props/bunker_hatch/bunker_hatch.rrig",
+      "animseqs": [
+        "animseq_derived/props/bunker_hatch/bunker_hatch/bunker_hatch_close.rseq",
+        "animseq_derived/props/bunker_hatch/bunker_hatch/bunker_hatch_close_idle.rseq",
+        "animseq_derived/props/bunker_hatch/bunker_hatch/bunker_hatch_open.rseq",
+        "animseq_derived/props/bunker_hatch/bunker_hatch/bunker_hatch_open_idle.rseq"
+      ]
+    },
+    {
+      "$type": "arig",
+      "path": "animrig/props/crafting_siphon/crafting_siphon.rrig",
+      "animseqs": [
+        "animseq/props/crafting_siphon/crafting_siphon/source_empty_idle.rseq",
+        "animseq/props/crafting_siphon/crafting_siphon/source_empty_to_full.rseq",
+        "animseq/props/crafting_siphon/crafting_siphon/source_full_idle.rseq",
+        "animseq/props/crafting_siphon/crafting_siphon/source_full_to_empty.rseq"
+      ]
+    },
+    {
+      "$type": "arig",
+      "path": "animrig/weapons/arms/pov_mp_core.rrig",
+      "animseqs": [
+        "animseq/weapons/arms/pov_mp_core/Aim_dataknife_AIM.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povA_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povA_jump.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povB_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povB_jump.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povC_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povC_jump.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povD_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/Classic_MP_flyin_exit_povD_jump.rseq",
+        "animseq/weapons/arms/pov_mp_core/idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_above.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_above_crouch.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_below.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_below_crouch.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_high.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_high_crouch.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_jumpoff.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_level.rseq",
+        "animseq/weapons/arms/pov_mp_core/mantle_level_crouch.rseq",
+        "animseq/weapons/arms/pov_mp_core/mp_ptpov_downed_pain_trans_short.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_fire.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_fire_trans.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_lower.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_lower_trans.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_poses.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_poses.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_pull_01.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_pull_02.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_switch.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_switch_quick.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_cloudcity_grapple_switch_slow.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_core_scan_end.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_end_A.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_end_A_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_end_B.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_end_B_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_end_C.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_end_C_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_idle_A.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_idle_A_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_idle_B.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_idle_B_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_idle_C.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_idle_C_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_start_A.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_start_A_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_start_B.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_start_B_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_start_C.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_crafting_replicator_start_C_air.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_core_leech_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_console_leech_end.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_console_leech_end_ALT.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_console_leech_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_console_leech_idle_ALT.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_console_leech_remoteturret_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_console_leech_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_console_leech_start_ALT.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_spectre_leech_end.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_spectre_leech_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_data_knife_spectre_leech_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_health_injector_long.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_health_injector_scene/ptpov_health_injector_scene.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_health_injector_short.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_medium_antenna_hack_end.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_medium_antenna_hack_mid.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_medium_antenna_hack_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_mobile_hardpoint_laptop_end.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_mobile_hardpoint_laptop_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_mobile_hardpoint_laptop_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_mp_battery_port_insert.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_mp_battery_port_remove.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_mp_healthkit_large.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_mp_healthkit_small.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_pathfinder_antenna_hack_end.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_pathfinder_antenna_hack_mid.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_pathfinder_antenna_hack_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_pegasus_wallhack_end.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_pegasus_wallhack_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_pegasus_wallhack_start.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_quest_se05.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_dismount.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_mount_113.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_mount_146.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_mount_180.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_mount_213.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_mount_246.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_mount_280.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rampart_turret_mount_80.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rodeo_entrance_F_front.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rodeo_trans_F2L.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rodeo_trans_F2R.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rodeo_trans_L2F.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rodeo_trans_L2R.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rodeo_trans_R2F.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_rodeo_trans_R2L.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_trainingpod_doors_close.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_trainingpod_doors_open.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_trainingpod_handle_close.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_trainingpod_handle_open.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_trainingpod_idle.rseq",
+        "animseq/weapons/arms/pov_mp_core/ptpov_wall_climb.rseq",
+        "animseq/weapons/arms/pov_mp_core/traversal_window_left.rseq",
+        "animseq/weapons/arms/pov_mp_core/traversal_window_right.rseq",
+        "animseq/weapons/arms/pov_mp_core/wall_climb.rseq",
+        "animseq/weapons/arms/pov_mp_core/zipline_mount.rseq",
+        "animseq/weapons/arms/pov_mp_core/zipline_mount_vertical.rseq",
+        "animseq/weapons/arms/pov_pete_core_wilds/ptpov_OG_grave.rseq",
+        "animseq/weapons/burn_card/ptpov_burn_card/ptpov_burn_card_activate_seq_gladcard.rseq",
+        "animseq/weapons/burn_card/ptpov_burn_card/ptpov_burn_card_activate_seq_s07_tease.rseq",
+        "animseq/weapons/empty_handed/ptpov_emptyhand/ptpov_downed_transition.rseq"
+      ]
+    },
+    {
+      "$type": "arig",
+      "path": "animrig/props/crafting_replicator/crafting_replicator.rrig",
+      "animseqs": [
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_auto_A.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_auto_B.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_auto_C.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_close.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_close_sideA.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_close_sideB.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_close_sideC.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_drop.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_open.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_open_sideA.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_open_sideB.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_open_sideC.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_openidle.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_openidle_sideA.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_openidle_sideB.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_openidle_sideC.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_ready_groundidle.rseq",
+        "animseq/props/crafting_replicator/crafting_replicator/crafting_replicator_ready_idle.rseq"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/vistas/canyonlands_mu2_se.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/industrial/tripod_cone_v1_high.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/charge_pylon/charge_pylon_01_cells.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/charge_pylon/charge_pylon_01_cells_static.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/charge_pylon/charge_pylon_01_glass.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/charge_pylon/charge_pylon_01_base.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/charge_pylon/charge_pylon_01_pole.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/global_access_panel_button/global_access_panel_button_console.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/zipline_balloon/zipline_balloon_stripped.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/imc_base/holo_projector_large_imc_arm.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_interior_railing_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_platform_support_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_generator_frame_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_wall_pillar_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_fluorescent_fixture_base_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_interior_wall_support_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_fluorescent_fixture_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_fluorescent_fixture_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/crypto_entry_godray_cool_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/crypto_entry_godray_warm_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/crypto_entry_godray_wide_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/crypto_entry_godray_wide_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/crypto_window_godray_cool_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/crypto_window_godray_warm_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_godray_01_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_godray_02_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_godray_03_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_godray_04_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_godray_05_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_godray_06_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_godray_07_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/bunker_godrays_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/exoplanet/sand_fall_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/exoplanet/sand_fall_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/exoplanet/sand_fall_splash_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_cables_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_capacitor_tubes_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_capacitor_water_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_water_section_01_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_mu2_bunker_water.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_mu2_bunker_water_foam.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_terrain_section_06_water_mu2.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_mu2_bunker_wires_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/hatch_bunker_damaged_walls_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rock_white_chalk_modular_large_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rock_white_chalk_sand_modular_large_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_base_details.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_pylon_rig_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/light_parking_post_off.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/crashsite/ship_wreckage_05.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/angel_city/concrete_barrier_side_metal_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rebar_03.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/slum_city/slumcity_column_40x128_dirty_c.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_capacitor_door_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_base_hydraulic_45deg.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_base_hydraulic_60deg.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_base_hydraulic_connect.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_base_link_160.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_rail.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_top.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_rig_crane_wheels_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_skull_rig_crane_base_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/clands_mu2_skull_rig_crane_cables_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_frame_wall_med_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_frame_angled_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/floating_village/supported_hut_06_skeleton_arch_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/floating_village/supported_hut_06_skeleton_arch_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_leg_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/military_bridge_cables_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_wall_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_wall_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_wall_divider_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_wall_corner_divider_in_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_wall_corner_divider_out_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_frame_wall_sml_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_frame_wall_lrg_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_frame_wall_lrg_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_clamp_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_clamp_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/terminal_ceiling_corner_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_tracks_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_tracks_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_tracks_ramp_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_tracks_ramp_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/rig_tracks_ramp_03.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_rr_canyonlands/canyonlands_terrain_sunken_skulltown.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/mp_sandtrap/sandtrap_interior_sandpile.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/pve_test/spiderweb_hanging_large_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/levels_terrain/pve_test/spiderweb_hanging_large_04.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rockcluster_light_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/buildings/windows/window_broken_glass_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/buildings/windows/window_broken_glass_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/buildings/windows/window_broken_glass_03.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/buildings/windows/window_broken_glass_04.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/buildings/windows/window_broken_glass_05.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/buildings/windows/window_broken_glass_06.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/zipline_balloon/zipline_balloon_base_stripped.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/cockpit/ship_console_control_med_v1_off.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/warning_light.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/warning_light_ON_red_small.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lamps/light_ontrack_fc.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/door/imc_double_door_128x256_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/lagoon_overgrown_moss_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/lagoon_overgrown_moss_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/lagoon_overgrown_moss_03.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/foliage/moss_green_hanging_large_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/s2s/s2s_hullhatch_tube128.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/garbage/garbage_trash_can_plastic_01_w_lid.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/garbage/trash_bin_single_Blue.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/garbage/trash_bin_single.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/lights/modern_fluorescent_wall_lights_01_warm.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/beacon_wallrun_arm_piece_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/beacon_wallrun_arm_piece_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/beacon_wallrun_arm_piece_03.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/beacon_fence_cable_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/menu/menu_cubemap_char_select.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/industrial/mounted_glass_wired_frame.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/beacon_plug_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/beacon_cable_clamp_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/support_wall_beam_angled_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/beacon/mendoko_wire_cluster_05.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/playback/playback_hanging_wire_single_x64_02.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/playback/playback_hanging_wire_single_x64_03.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rock_white_chalk_modular_large_02_cracks.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/industrial/metal_vent_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/imc_base/light_wall_IMC_03_on.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rocks/rock_white_chalk_modular_wallrun_04.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rubble_pile_flat_sparse.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_chunk_small_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/rubble_pile_flat.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_03_rebar.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_06_rebar.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_07.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_07_rebar.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/rubble/concrete_piece_08_rebar.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/imc_base/imc_portable_ext_wall_128_01e.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/imc_base/chain_link_tarp_IMC_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/imc_base/monitor_command_small_imc_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/imc_base/imc_portable_ext_double_door_frame_dark_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/s2s/s2s_railing_small_01_64.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/colony/colony_pipe_set_06.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/foliage/tree_brush_green_large_03.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/domestic/electric_box_city.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/industrial/tube_aircraft_service_bend_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/industrial/tube_aircraft_service_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/pipes/pipe_medium_256_01_red.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/signs/sign_construction_01.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/industrial/modular_railing_trim_short.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/pipes/pipe_medium_angle_01_red.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/signs/signage_plates_metal/sign_post_plate_b.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/colony/antenna_post_colony_broken_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/desertlands/industrial_metal_frame_wall_128x144_02.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/foliage/lilypad_clusters_05.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["models/foliage/lilypad_cluster_02_flowing_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/foliage/plant_tropical_ground_leafy_01_animated.rmdl",
+      "usePhysics": false,
+      "static": true,
+      "materials": ["models/foliage/plant_tropical_ground_leafy_01_rgdp"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/crafting_siphon/crafting_siphon.rmdl",
+      "usePhysics": true,
+      "animrigs": ["animrig/props/crafting_siphon/crafting_siphon.rrig"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/crafting_replicator/crafting_replicator.rmdl",
+      "usePhysics": true,
+      "animrigs": ["animrig/props/crafting_replicator/crafting_replicator.rrig"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/canyonlands/crypto_tt_generator_pillar_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/charge_pylon/charge_pylon_01_qtr.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/test/davis_test/charge_pylong_ping_proxy.rmdl",
+      "usePhysics": false,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/timeshift/timeshift_trashbin_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/foliage/tree_fir_large_no_leaves.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/test/tri_test/rubble_mound_mod_01.rmdl",
+      "usePhysics": true,
+      "static": true
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/bunker_hatch/bunker_hatch.rmdl",
+      "usePhysics": true,
+      "animrigs": ["animrig/props/bunker_hatch/bunker_hatch.rrig"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/bunker_hatch/bunker_hatch_scale_down.rmdl",
+      "usePhysics": true,
+      "animrigs": ["animrig/props/bunker_hatch/bunker_hatch_scale_down.rrig"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/quest_s05/object.rmdl",
+      "usePhysics": false,
+      "animseqs": ["animseq/props/quest_s05/object/prop_quest_se05.rseq"]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/quest_s05/object_body.rmdl",
+      "usePhysics": false,
+      "animseqs": [
+        "animseq/props/quest_s05/object_body/obj_body_quest_se05.rseq",
+        "animseq/props/quest_s05/object_body/obj_body_quest_se05_idle.rseq"
+      ]
+    },
+    {
+      "$type": "rmdl",
+      "path": "mdl/props/crypto_satellite_dish/crypto_satellite_dish.rmdl",
+      "usePhysics": true,
+      "materials": [
+        "models/beacon/beacon_cable_trim_01/beacon_cable_trim_01_sknc",
+        "world/stasis/stasis_lab_trim_02/stasis_lab_trim_02_sknp",
+        "world/stasis/stasis_trim_02/stasis_trim_02_sknc",
+        "world/timeshift/timeshift_metal_trim_01/timeshift_metal_trim_01_sknp",
+        "world/metal/trim_metal_01_sknp",
+        "world/beacon/stamped_metal_large_painted_03_vert_color_sknc",
+        "world/metal/imc_painted_metal_01_sknp",
+        "world/dev/dev_green_light_sknp",
+        "DONOTRENDER_sknc",
+        "world/windows/glass_window_bulletproof01_green_sknp",
+        "world/s2s/s2s_bolt_decals_01_sknp"
+      ],
+      "animrigs": [
+        "animrig/props/crypto_satellite_dish/crypto_satellite_dish.rrig"
+      ]
+    },
+    {
+      "$type": "uimg",
+      "path": "ui_image_atlas/overviews/mp_rr_canyonlands_mu2",
+      "atlas": "texture/ui_atlas/overviews/mp_rr_canyonlands_mu2",
+      "textures": [
+        {
+          "path": "overviews/mp_rr_canyonlands_mu2",
+          "width": 4096,
+          "height": 4096,
+          "posX": 0,
+          "posY": 0
+        }
+      ]
+    }
+  ]
+}
