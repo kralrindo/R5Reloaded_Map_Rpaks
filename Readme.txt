@@ -2,6 +2,43 @@ Main map assets rpaks for R5Reloaded Modded Apex Project, used for ported maps. 
 
 Made by @KralRindo, also gonna credit Zer0Bytes#4428 for his helps on repak.
 
+How to use REPak to make custom asset rpaks for R5Reloaded. Note: This part is for how to port Season 4-6 Apex assets, not for custom models
+
+Required Tools
+Repak: https://github.com/DataCluster0/RePak
+Respawn-mdl Templates: https://github.com/IJARika/respawn-mdl
+010 Editor: https://www.sweetscape.com/010editor/
+LegionPlus: https://github.com/DataCluster0/LegionPlus
+
+//========================================================
+//				Models				//
+//========================================================
+
+R5Reloaded supports season 2.1-6 all asset types. For models they need to be exported with legion as RMDL format.
+
+//========================================================
+//			   Materials			//
+//========================================================
+
+//========================================================
+//			  Datatables			//
+//========================================================
+
+//========================================================
+//			 Load Screens			//
+//========================================================
+
+//========================================================
+//			 	Minimaps			//
+//========================================================
+
+//========================================================
+//			   Animations			//
+//========================================================
+
+
+Some extra information regarding season 3 apex assets.
+
 //========================================================
 //			Material Slots			//
 //========================================================
