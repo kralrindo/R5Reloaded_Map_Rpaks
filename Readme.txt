@@ -10,32 +10,18 @@ Respawn-mdl Templates: https://github.com/IJARika/respawn-mdl
 010 Editor: https://www.sweetscape.com/010editor/
 LegionPlus: https://github.com/DataCluster0/LegionPlus
 
-//========================================================
-//				Models				//
-//========================================================
-
 R5Reloaded supports season 2.1-6 all asset types. For models they need to be exported with legion as RMDL format.
 
-//========================================================
-//			   Materials			//
-//========================================================
+dtbl: You can export from legion, edit the way you want and port it to a rpak, but it's limited by one datatable per pak right now.
+shds: Thats actually used for shader merge, you can export shadersets from legion, get their vertex and pixel shader guid and merge two shadersets together.
+txtrlist: This is actually txtr(texture) but it's something zero made, it's not actually asset. You can add multiple textures to it and it will add them as txtr, and merge pages together. It saves so much time and space in the json.
+matl: Materials, legion prints the data it needs in console(Zero's Legion), you add the flags, shaderset, cpudata and textures, albedo res and thats basically it. But every texture you add to a material needs to be in txtrlist as well or game will loop.
+aseqlist: This is also something zero made, you can add animation seqs without a rig. It's literally like txtrlist but for animations. Used for models that doesnt have any animrig but does have animations.
+arig: Animation rigs that legion exports, you add the animations that also comes with rig itself and thats basically it. But there is something that you must do when adding it. Animation order needs to be same with what you see in the legion console.
+rmdl: Respawn's mdl format, you can export and port from s2-s3-s4-s5-s6, or make one yourself with crowbar, blender source tools or export the models as smd with legion and use crowbar to convert them to mdl format. Then rexx's converter does the rest of it.
+uimg: This is used for ui images, minimaps and loadscreens, check my jsons to see more details.)
 
-//========================================================
-//			  Datatables			//
-//========================================================
-
-//========================================================
-//			 Load Screens			//
-//========================================================
-
-//========================================================
-//			 	Minimaps			//
-//========================================================
-
-//========================================================
-//			   Animations			//
-//========================================================
-
+Asset order in a json: datatable > txtrlist or txtr > matl > aseqlist > arig > rmdl > uimg
 
 Some extra information regarding season 3 apex assets.
 
