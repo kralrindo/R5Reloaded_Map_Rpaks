@@ -1,6 +1,9 @@
 Main map assets rpaks for R5Reloaded Modded Apex Project, used for ported maps. (Models, materials, loadscreens and many more)
 
-Made by @KralRindo, also gonna credit Zer0Bytes#4428 for his helps on repak.
+Made by @KralRindo
+
+Other credits:
+
 
 How to use REPak to make custom asset rpaks for R5Reloaded. Note: This part is for how to port Season 4-6 Apex assets, not for custom models
 
