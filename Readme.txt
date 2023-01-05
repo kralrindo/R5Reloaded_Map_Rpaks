@@ -4,6 +4,9 @@ Made by @KralRindo
 
 Other credits:
 
+Repak, 010 Respawn Templates, Legion and Model Converter: rexx#1287, IcePixelx#4931, Rika#1525
+Better Repak and Legion Improvements and some assets: Zer0Bytes#4428
+
 
 How to use REPak to make custom asset rpaks for R5Reloaded. Note: This part is for how to port Season 4-6 Apex assets, not for custom models
 
